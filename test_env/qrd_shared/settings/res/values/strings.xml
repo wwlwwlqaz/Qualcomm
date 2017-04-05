@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi">Wi‑Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="see_available_networks">To see available networks</string>
+    <string name="connected">Connected</string>
+    <string name="forget">Forget</string>
+    <string name="connect">Connect</string>
+    <string name="location_access">Location access</string>
+    <string name="dual_sim_settings">Dual SIM settings</string>
+    <string name="count_down_time">Count down time</string>
+    <string name="voice">Voice</string>
+    <string name="slot1">SLOT1</string>
+    <string name="slot2">SLOT2</string>
+    <string name="data_call">Data Call</string>
+    <string name="sms">SMS</string>
+    <string name="cancel">Cancel</string>
+    <string name="security">Security</string>
+    <string name="screen_lock">Screen lock</string>
+    <string name="none">None</string>
+    <string name="display">Display</string>
+    <string name="sleep">Sleep</string>
+    <string name="never">Never</string>
+    <string name="add_account">Add account</string>
+    <string name="keep_me_up">Keep me up</string>
+    <string name="could_not_sign_in">Couldn't sign in</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="signing_in">Signing in</string>
+    <string name="account_exsits">Account already exists</string>
+    <string name="always_ask">Always ask</string>
+    <string name="next">Next</string>
+    <string name="set_dds_success">Set data subscription success</string>
+    <string name="about_phone">About phone</string>
+    <string name="system_update">System update</string>
+    <string name="local_updates">Local updates</string>
+    <string name="30 minutes">30 minutes</string>>
+    <string name="apps">Apps</string>
+</resources>

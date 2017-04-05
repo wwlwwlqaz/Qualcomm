@@ -1,0 +1,10 @@
+WEIGHT LIST
+#launch_time:camera_001:10
+#fps:camera_001:300
+#launch_time:camera_002:800
+#launch_time:camera_003:900
+#fps:camera_003:300
+#fps:camera_002:200
+#fps:camera_004:30
+END
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 下面是test suit的名字必须和文件夹名吻合-->
+<!-- enable="1"，1表示跑这个suit，0表示不跑这个suit-->
+<!-- description="The sample case about back ground case"，描述case，会显示在phone的case名字下面-->
+<test_suit name="test_suit_sample"
+enable="0"
+description="The sample case about back ground case"
+>
+</test_suit>

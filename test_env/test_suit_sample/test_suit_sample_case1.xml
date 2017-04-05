@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 下面是test case的名字必须和文件名吻合-->
+<!-- entry="test_case_main"，必须是test_case_main-->
+<!-- enable="0"，1表示跑这个case，0表示不跑这个case-->
+<!-- description="fundamental test case"，描述case，会显示在phone的case名字下面-->
+<test_case description="fundamental test case" enable="0" entry="test_case_main" name="test_suit_sample_case1">
+</test_case>

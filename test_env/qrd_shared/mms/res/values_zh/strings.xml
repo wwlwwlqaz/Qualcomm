@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attach">附件</string>
+    <string name="capture_picture">拍摄照片</string>
+    <string name="delete_all_threads">删除所有会话</string>
+    <string name="received">接收时间</string>
+    <string name="mms">彩信</string>
+    <string name="no_conversations">无会话</string>
+    <string name="type_message">键入信息</string>
+    <string name="sent">发送时间</string>
+    <string name="message_size">信息大小</string>
+</resources>

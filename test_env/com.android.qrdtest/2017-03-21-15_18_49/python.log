@@ -1,0 +1,114 @@
+2017-03-21 15:19:06		framework API_INFO : API: is_external_storage_enable Param: no params
+
+2017-03-21 15:19:07		framework API_INFO : API: send_value_to_qsst Param[1]:name=CYCLE_TIME Param[2]:value=.
+
+2017-03-21 15:19:07		framework API_INFO : API: start_new_track Param[1]:name=2017-03-21-15_18_49 Param[2]:description=recording 2017-03-21-15_18_49
+
+2017-03-21 15:19:07		framework test_main : notification:start new track failed!!
+
+2017-03-21 15:19:07		framework TestLoader : suit_name:test_suit_settings
+
+2017-03-21 15:19:07		framework TestLoader : check case:test_suit_settings_case1
+
+2017-03-21 15:19:07		framework TestLoader : add case:test_suit_settings_case1
+
+2017-03-21 15:19:07		framework test_suit_settings_case1 : case added
+
+2017-03-21 15:19:07		framework API_INFO : API: send_value_to_qsst Param[1]:name=SUIT_NAME Param[2]:value=test_suit_settings
+
+2017-03-21 15:19:07		framework test_suit_settings : suit init...
+
+2017-03-21 15:19:07		framework API_INFO : API: update_notificationbar Param[1]:text=presettings is running...
+
+2017-03-21 15:19:07		framework logging_wrapper : suspend_flag = false, ---2  getprop
+
+2017-03-21 15:19:07		framework logging_wrapper : suspend_flag = false, ---2  getprop
+
+2017-03-21 15:19:07		framework test_suit_settings_case1 : case init...
+
+2017-03-21 15:19:07		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_settings_case1
+
+2017-03-21 15:19:07		framework API_INFO : API: get_system_language Param: no params
+
+2017-03-21 15:19:07		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+
+2017-03-21 15:19:11		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+
+2017-03-21 15:19:13		framework API_INFO : API: get_activity_name Param: no params
+
+2017-03-21 15:19:13		framework case_utility : hard code get activity name
+
+2017-03-21 15:19:13		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:19:14		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+
+2017-03-21 15:19:14		framework API_INFO : API: send_key Param[1]:key=26 Param[2]:keyType=0
+
+2017-03-21 15:19:14		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:19:15		framework API_INFO : API: drag_by_param Param[1]:startX=50 Param[2]:startY=90 Param[3]:endX=50 Param[4]:endY=0 Param[5]:stepCount=10
+
+2017-03-21 15:19:15		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:19:18		framework API_INFO : API: search_text Param[1]:text=Close Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+
+2017-03-21 15:19:22		framework API_INFO : API: search_text Param[1]:text=OK Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+
+2017-03-21 15:19:27		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+
+2017-03-21 15:19:27		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:19:29		framework API_INFO : API: start_activity Param[1]:package_name=com.android.settings Param[2]:activity_name=.Settings
+
+2017-03-21 15:19:31		framework API_INFO : API: scroll_up Param: no params
+
+2017-03-21 15:19:32		framework API_INFO : API: get_system_language Param: no params
+
+2017-03-21 15:19:32		framework API_INFO : API: click_textview_by_text Param[1]:text=Security Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:19:45		framework API_INFO : API: click_textview_by_text Param[1]:text=Screen lock Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:19:47		framework API_INFO : API: click_textview_by_text Param[1]:text=None Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:19:49		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+
+2017-03-21 15:19:50		framework API_INFO : API: scroll_up Param: no params
+
+2017-03-21 15:19:51		framework API_INFO : API: click_textview_by_text Param[1]:text=Display Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:20:10		framework API_INFO : API: click_textview_by_text Param[1]:text=Sleep Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:20:12		framework API_INFO : API: click_textview_by_text Param[1]:text=30 minutes Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:20:13		framework API_INFO : API: click_imageview_by_index Param[1]:index=0
+
+2017-03-21 15:20:14		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+
+2017-03-21 15:20:15		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x0000000003678BA8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+
+2017-03-21 15:20:15		framework API_INFO : API: search_text Param[1]:text=Data usage Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+
+2017-03-21 15:20:15		framework case_utility : <function <lambda> at 0x0000000003678BA8> expected True
+
+2017-03-21 15:20:15		framework API_INFO : API: click_textview_by_text Param[1]:text=Data usage Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:20:17		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x0000000003678BA8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+
+2017-03-21 15:20:17		framework API_INFO : API: search_text Param[1]:text=OFF Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=0
+
+2017-03-21 15:20:24		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:20:25		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+
+2017-03-21 15:20:25		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+
+2017-03-21 15:20:27		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+
+2017-03-21 15:20:29		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+
+2017-03-21 15:20:31		framework API_INFO : API: get_activity_name Param: no params
+
+2017-03-21 15:20:31		framework case_utility : hard code get activity name
+
+2017-03-21 15:20:31		framework API_INFO : API: sleep Param[1]:_time=1
+

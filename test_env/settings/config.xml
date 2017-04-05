@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <public name="enable_user_release_online_debug " description="Enable user release online debug" type="boolean">false</public>
+    <public name="random_order" description="Random order" type="boolean">false</public>
+    <public name="close_lockscreen" description="Close Lockscreen" type="boolean">true</public>
+    <public name="google_pinyin" description="IME for google pinyin" type="boolean">true</public>
+    <public name="disable_TouchPanel" description="disable touch panel" type="boolean">false</public>
+    <public name="set_default_sms_always_ask" description="Set default SMS always ask" type="boolean">false</public>
+    <public name="running_repeat_number" description="Running repeat number" type="number">1</public>
+    <public name="smart_number" description="number to search" type="number">203</public>
+    <public name="phone_platform_type" description="phone platform type" type="string">automatch</public>
+    <public name="slot1_dial_number" description="number to dial" type="number">20372080</public>
+    <public name="slot2_dial_number" description="number to dial" type="number">10086</public>
+    <public name="chinamobie_testing_number" description="10086" type="number">10086</public>
+    <public name="check_date_testing_number" description="12117" type="number">12117</public>
+    <public name="gps_fix_number" description="gps fix number" type="number">20</public>
+    <public name="shield_box_port" description="shield box port" type="number">16</public>
+    <public name="slot1_phone_number" description="slot1's number" type="number">13636583703</public>
+    <public name="slot1_phone_number_sequence" description="slot1's number sequence" type="sequence" relative_item="slot1_phone_number">num_sign,1,3,6,3,6,5,8,3,7,0,3</public>
+    <public name="slot2_phone_number" description="slot2's number" type="number">18601615608</public>
+    <public name="slot2_phone_number_sequence" description="slot2's number sequence" type="sequence" relative_item="slot2_phone_number">num_sign,1,8,6,0,1,6,1,5,6,0,8</public>
+    <public name="wifi_name" description="wifi name" type="string">Hydra</public>
+    <public name="wifi_password" description="wifi password" type="string">K5x48Vz3</public>
+    <public name="wifi_password_sequence" description="wifi password sequence" type="sequence" relative_item="wifi_password">caps,k,num_sign,5,num_sign,x,num_sign,4,8,num_sign,caps,v,caps,z,num_sign,3</public>
+    <!-- the values can be : interactive case on the forward, interactive case on the last, disable-->
+    <public name="choose_interactive_case_mode" description="choose interactive case mode" type="simple-select" enum_list="interactive_case_on_the_forward,interactive_case_on_the_last,disable">disable</public>
+    <!-- the time fomat is: hh:mm(in 24-hour time system)-->
+    <public name="timer_for_auto_run_QSST" description="the timer for auto run QSST" type="time-picker" >22:00</public>
+    <public name="timing_cycle" description="timing cycle" type="simple-select" enum_list="never,only_once,every_day">never</public>
+    <!-- the values can be : disable,case_fail,case_end-->
+    <public name="auto_logging_env_context" description="auto logging env context type" type="simple-select" enum_list="disable,case_fail,case_end">disable</public>
+    <!-- the values can be : postion-mobile,speed-mobile,temperate-battery-celsius,temperate-battery-fahrenheit,orientation-mobile,ram-available,rom-available,rssi-wifi-->
+    <public name="env_context_items_for_auto_logging" description="items of auto logging env context" type="multi-select" enum_list="postion-mobile,speed-mobile,temperate-battery-celsius,temperate-battery-fahrenheit,orientation-mobile,ram-available,rom-available,rssi-wifi">rssi-wifi,rom-available</public>
+    <public name="act_as_group_test_host" description = "act as host of a test group" type="boolean">false</public>
+    <!-- the values can be : sim1_card_rssi,sim2_card_rssi,sim1_card_service_state,sim2_card_service_state -->
+    <public name="service_change_items_for_auto_monitor" description="items of auto monitor service change" type="multi-select" enum_list="sim1_card_rssi,sim2_card_rssi,sim1_card_service_state,sim2_card_service_state,sim1_card_networktype_class,sim2_card_networktype_class"></public>
+    <!--public name="wifi_password" description="wifi password" type="string">QRDAP123456</public>
+    <public name="wifi_password_sequence" description="wifi password sequence" type="sequence" relative_item="wifi_password">caps,q,r,d,a,p,num_sign,1,2,3,4,5,6</public>-->
+    <private name="tracking">
+        <item name="tracking_path" description="tracking path while running" type="boolean">false</item>
+        <item name="tracking_in_cloud" description="tracking in cloud" type="boolean">false</item>
+        <item name="auto_insert_case_waypoint" description="auto insert case waypoint" type="boolean">false</item>
+    </private>
+    <private name="hostlogging">
+        <item name="enable_feature" description="Enable feature" type="boolean">false</item>
+        <item name="com_number" description="COM number" type="number">0</item>
+        <item name="qxdm_configuration" description="QXDM configuration fiel" type="string">C:\\Qsst\\Bluetooth.dmc</item>
+        <item name="log_save_path" description="Log save path" type="string">C:\\Qsst\\log\\</item>
+    </private>
+    <private name="email">
+        <item name="email_account" description="email account" type="string">auto_test_email@163.com</item>
+        <item name="email_account_sequence" description="email account's sequence" type="sequence" relative_item="email_account">a,u,t,o,num_sign,sign_7,num_sign,t,e,s,t,num_sign,sign_7,num_sign,e,m,a,i,l,num_sign,sign_1,1,6,3,num_sign,.,c,o,m</item>
+        <item name="email_password" description="email password" type="string">email123</item>
+        <item name="email_password_sequence" description="email password sequence" type="sequence" relative_item="email_password">e,m,a,i,l,num_sign,1,2,3</item>
+        <item name="zy_email_account" description="email account" type="string">zhiyangz@qti.qualcomm.com</item>
+        <item name="zy_email_account_sequence" description="email account's sequence" type="sequence" relative_item="zy_email_account">z,h,i,y,a,n,g,z,num_sign,sign_1,num_sign,q,t,i,.,q,u,a,l,c,o,m,m,.,c,o,m</item>
+    </private>
+    <private name="browser">
+        <item name="wait_time" description="browser web wait time unit:second" type="number">30</item>
+        <item name="address_url" description="url address" type="string">www.baidu.com</item>
+        <item name="address_check_url" description="url address" type="string">  m.baidu.com</item>
+        <item name="web_title" description="web title" type="string">百度</item>
+    </private>
+    <private name="phone">
+        <item name="call_repeat_times" description="repeat call times per case" type="number">3</item>
+        <item name="define_case_success_times" description="success times reach the value, case success" type="number">1</item>
+        <item name="call_time" description="call time before hang up" type="number">10</item>
+        <item name="cdma_call_phonenumber" description="call the phone number when use cdma card" type="number">10000</item>
+        <item name="gsm_wcdma_call_phonenumber" description="call the phone number when use wcdma or gsm card" type="number">10086</item>
+        <item name="no_answer_wait_time" description="time for waiting to connect" type="number">15</item>
+    </private>
+    <private name="gmail">
+        <item name="gmail_account" description="gmail account" type="string">autotest55@gmail.com</item>
+        <item name="gmail_account_sequence" description="gmail account's sequence" type="sequence" relative_item="gmail_account">a,u,t,o,t,e,s,t,num_sign,5,5,sign_1,num_sign,g,m,a,i,l,.,c,o,m</item>
+        <item name="gmail_password" description="gmail password" type="string">gmail1122</item>
+        <item name="gmail_password_sequence" description="gmail password's sequence" type="sequence">g,m,a,i,l,num_sign,1,1,2,2</item>
+    </private>
+    <private name="doubanfm">
+        <item name="account" description="douban fm account" type="string">auto_test_email@163.com</item>
+        <item name="account_sequence" description="douban fm account sequence" type="sequence" relative_item="account">a,u,t,o,num_sign,caps,sign_7,num_sign,t,e,s,t,num_sign,caps,sign_7,num_sign,e,m,a,i,l,num_sign,sign_1,1,6,3,num_sign,.,c,o,m</item>
+        <item name="password" description="douban fm password" type="string">email123</item>
+        <item name="password_sequence" description="douban fm password sequence" type="sequence" relative_item="password">e,m,a,i,l,num_sign,1,2,3</item>
+    </private>
+   	<private name="weibo">
+        <item name="account" description="weibo account" type="string">nicefuture@126.com</item>
+        <item name="account_sequence" description="weibo account sequence" type="sequence" relative_item="account">n,i,c,e,f,u,t,u,r,e,num_sign,sign_1,1,2,6,num_sign,.,c,o,m</item>
+        <item name="password" description="weibo password" type="string">qctest</item>
+        <item name="password_sequence" description="weibo password sequence" type="sequence" relative_item="password">q,c,t,e,s,t</item>
+        <item name="share_content" description="weibo content" type="string">本信息仅作测试。新�?</item>
+        <item name="share_content_sequence" description="weibo share content sequence" type="sequence" relative_item="share_content">b,e,n, ,x,i,n,x,i, ,j,i,n,z,u,o, ,c,s, ,.,x,i,n,l,a,n,g, </item>
+        <item name="share_picture" description="weibo picture" type="string">分享图片</item>
+        <item name="share_picture_sequence" description="weibo share picture sequence" type="sequence" relative_item="share_picture">f,e,n,x,i,a,n,g, ,t,p, </item>
+  	</private>	
+    <private name="renren">
+        <item name="account" description="renren account" type="string">kris.android@gmail.com</item>
+        <item name="account_sequence" description="renren account sequence" type="sequence" relative_item="account">k,r,i,s,.,a,n,d,r,o,i,d,num_sign,sign_1,num_sign,g,m,a,i,l,.,c,o,m</item>
+        <item name="password" description="renren password" type="string">qctest</item>
+        <item name="password_sequence" description="renren password sequence" type="sequence" relative_item="password">q,c,t,e,s,t</item>
+        <item name="share_content" description="renren content" type="string">本信息仅作测试。人�?</item>
+        <item name="share_content_sequence" description="renren share content sequence" type="sequence" relative_item="share_content">b,e,n, ,x,i,n,x,i, ,j,i,n,z,u,o, ,c,s, ,.,r,e,n,r,e,n, </item>
+        <item name="share_picture" description="weibo picture" type="string">分享图片</item>
+        <item name="share_picture_sequence" description="weibo share picture sequence" type="sequence" relative_item="share_picture">f,e,n,x,i,a,n,g, ,t,p, </item>
+    </private>    
+    <private name="contact">
+        <item name="phone" description="contact name" type="string">testui</item>
+        <item name="phone_special_name" description="contact name" type="string">testui@#$%+</item>
+        <item name="phone_testing_contact" description="China Mobile" type="string">China Mobile</item>
+        <item name="sim1" description="contact name" type="string">testuisim1</item>
+        <item name="sim2" description="contact name" type="string">testuisim2</item>
+        <item name="contacts_option" description="contact sheet" type="string">ALL CONTACTS</item>
+        <item name="no_contacts_1" description="no_contact" type="string">No contacts</item>
+        <item name="number" description="contact number" type="string">13524345588</item>
+        <item name="contact_email_info" description="contact email account" type="string">90.liyazhou@163.com</item>
+        <item name="contact_email_info_sequence" description="contact_email_info's sequence" type="sequence" relative_item="contact_email_info">num_sign,9,0,.,num_sign,l,i,y,a,z,h,o,u,num_sign,sign_1,1,6,3,num_sign,.,c,o,m</item>
+       	 <item name="contact_address_info" description="contact address info" type="string">liangxiu no112 road shanghai</item>
+        <item name="contact_address_info_sequence" description="contact_address_info's sequence" type="sequence" relative_item="contact_address_info">caps,l,i,a,n,g,x,i,u, ,caps,n,o,num_sign,1,1,2, ,caps,r,o,a,d, ,caps,s,h,a,n,g,h,a,i</item>
+    </private>
+    <private name="jacob">
+        <item name="name" description="contact name" type="string">jacob</item>
+        <item name="number" description="contact number" type="string">13912345678</item>
+        <item name="email" description="contact email" type="sequence" relative_item="account">n,i,c,e,f,u,t,u,r,e,sign_1,1,2,6,num_sign,.,c,o,m</item>
+        <item name="address" description="contact address" type="string">sd</item>
+        <item name="website" description="contact website" type="string">www.qualcomm.com</item>
+        <item name="nickname" description="contact nickname" type="string">paul</item>
+        <item name="notes" description="contact notes" type="string">betterMorning</item>
+        <item name="im" description="contact im" type="string">paul.jacobs</item>
+    </private>
+    <private name="wifi">
+        <item name="repeat_time_wifi" description="repetition" type="number">2</item>
+        <item name="hydra_ssid" description="ssid name" type="string">Hydra</item>
+        <!--    password:K5x48Vz3 -->
+        <item name="hydra_password_sequence" description="wifi password sequence" type="sequence">caps,k,num_sign,5,num_sign,x,num_sign,4,8,num_sign,caps,v,caps,z,num_sign,3</item>
+    </private>
+    <private name="cmcc_mtbf">
+        <item name="dial_number" description="number to dial for CMCC MTBF" type="number">10086</item>
+    </private>
+    <private name="ftp">
+        <item name="hostname" description="Hostname" type="string">1.202.242.131</item>
+        <item name="port" description="Port" type="number">21</item>
+        <item name="username" description="Username" type="string">qualcomm</item>
+        <item name="password" description="Password" type="string">Y6t5r4e3w2q1</item>
+        <item name="isactive" description="Enable Active Mode" type="boolean">true</item>
+    </private>
+    <private name="ui_phone">
+        <item name="call_repeat_times" description="repeat call times per case" type="number">2</item>
+        <item name="define_case_success_times" description="success times reach the value, case success" type="number">2</item>
+        <item name="hold_time" description="hold time before hang up" type="number">20</item>
+        <item name="cdma_call_phonenumber" description="call the phone number when use cdma card" type="number">10000</item>
+        <item name="gsm_wcdma_call_phonenumber" description="call the phone number when use wcdma or gsm card" type="number">10086</item>
+        <item name="no_answer_wait_time" description="time for waiting to connect" type="number">20</item>
+        <item name="interval_time" description="time for waiting before next call " type="number">15</item>
+    </private>
+    <private name="ui_ft">
+        <item name="repeat_times" description="repeat times per case" type="number">2</item>
+        <item name="define_case_success_times" description="success times reach the value, case success" type="number">2</item>
+        <item name="airplanemode_repeat_times" description="repeat call times per case" type="number">2</item>
+        <item name="call_repeat_times" description="repeat call times per case" type="number">1</item>
+        <item name="hold_time" description="hold time before hang up" type="number">10</item>
+        <item name="cdma_call_phonenumber" description="call the phone number when use cdma card" type="number">10000</item>
+        <item name="gsm_wcdma_call_phonenumber" description="call the phone number when use wcdma or gsm card" type="number">10086</item>
+        <item name="no_answer_wait_time" description="time for waiting to connect" type="number">10</item>
+        <item name="interval_time" description="time for waiting before next call " type="number">5</item>
+    </private>
+    <private name="ui_issue">
+        <item name="repeat_times" description="repeat times per case" type="number">2</item>
+        <item name="fd_call_phonenumber" description="call the phone number when test fd leak" type="number">10086</item>
+        <item name="fd_repeat_times" description="repeat times per case for issue case1" type="number">2</item>
+        <item name="call_repeat_times" description="repeat times per case for issue case2" type="number">2</item>
+        <item name="sleep_repeat_times" description="repeat times per case for issue case5" type="number">100000</item>
+       	<item name="url_address" description="url address" type="string">218.206.176.104:8080/portalone/test.jsp?pass=2009</item>
+        <item name="url_address_sequence" description="url address's sequence" type="sequence" relative_item="url_address">num_sign,2,1,8,.,2,0,6,.,1,7,6,.,1,0,4,sign_14,8,0,8,0,sign_8,num_sign,p,o,r,t,a,l,o,n,e,num_sign,sign_8,num_sign,t,e,s,t,.,j,s,p,num_sign,sign_17,num_sign,p,a,s,s,num_sign,caps,sign_8,caps,2,0,0,9</item>
+       <!--  <item name="url_address" description="url address" type="string">218.206.176.104:8080/portalone/test.jsp</item>
+        <item name="url_address_sequence" description="url address's sequence" type="sequence" relative_item="url_address">num_sign,2,1,8,.,2,0,6,.,1,7,6,.,1,0,4,sign_14,8,0,8,0,sign_8,num_sign,p,o,r,t,a,l,o,n,e,num_sign,sign_8,num_sign,t,e,s,t,.,j,s,p</item> -->
+        
+        
+    </private>
+</config>

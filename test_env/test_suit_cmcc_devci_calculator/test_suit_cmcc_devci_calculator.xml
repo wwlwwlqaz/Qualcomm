@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test_suit app_name="" description="Calculator Module" enable="1" entry="test_suit_main" name="test_suit_cmcc_devci_calculator" runner="">
+</test_suit>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weibo_name">东方欲晓1821830985</string>
+    <string name="home">首页</string>
+    <string name="see_all">查看全部</string>
+    <string name="share_to_weibo">分享到微博</string>
+    <string name="share_object">共享对象</string>
+    <string name="send">发送</string>
+    <string name="default_share_to_weibo">与“分享到微博”共享</string>
+    <string name="same_draf_tip">微博尚未发送，是否保存</string>
+    <string name="cancel">取消</string>
+    <string name="new_version">检测到新版本</string>
+</resources>

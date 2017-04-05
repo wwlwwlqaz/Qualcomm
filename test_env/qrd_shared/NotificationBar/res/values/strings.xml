@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MissedCall">Missed call</string>
+    <string name="NewMessage">10011</string>
+    <string name="gmail">gmail</string>
+    <string name="airplanemodeon">Airplane mode is ON</string>
+    <string name="airplanemodeoff">Airplane mode is OFF</string>
+    <string name="airplanemode">Airplane mode</string>
+    <string name="clear_all_button">dismiss_text</string>
+</resources>

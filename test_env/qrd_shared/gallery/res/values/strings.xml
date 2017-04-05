@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_camera">Camera</string>
+    <string name="just_once">Just once</string>
+    <string name="switch_camera">Switch to Camera</string>
+    <string name="Albums">Albums</string>
+    <string name="Shutter_button">Shutter button</string>
+    <string name="Navigate_up">Navigate up</string>
+</resources>

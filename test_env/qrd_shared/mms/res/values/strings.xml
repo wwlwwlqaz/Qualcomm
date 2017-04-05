@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attach">Attach</string>
+    <string name="capture_picture">Capture picture</string>
+    <string name="delete_all_threads">Delete all threads</string>
+    <string name="received">Received</string>
+    <string name="mms">MMS</string>
+    <string name="no_conversations">No conversations</string>
+    <string name="type_message">Type message</string>
+    <string name="sent">Sent:</string>
+    <string name="received">Received:</string>
+    <string name="message_size">Message size</string>
+    <string name="connect_to_website">Connect</string>
+    <string name="record audio">Record audio</string>
+    <string name="replace">Replace</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="post_status">发状态</string>
+    <string name="share_object">Share with</string>
+    <string name="see_all">See all</string>
+    <string name="share_to_renren">分享到人人</string>
+    <string name="default_share_to_renren">Share with 分享到人人</string>
+    <string name="sure_exit">您确定要退出吗</string>
+    <string name="ok">确定</string>
+    <string name="cancel_post_tip">是否取消发布</string>
+    <string name="ignore_it">忽略本次</string>
+</resources>

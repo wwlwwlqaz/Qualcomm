@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messaging_attach">附件</string>
+    <string name="messaging_capture_picture">拍摄照片</string>
+    <string name="messaging_delete_all_threads">删除所有会话</string>
+    <string name="messaging_received">接收时间</string>
+    <string name="messaging_mms">彩信</string>
+    <string name="messaging_no_conversations">无会话</string>
+    <string name="messaging_type_message">键入信息</string>
+    <string name="messaging_sent">发送时间</string>
+    <string name="messaging_message_size">信息大小</string>
+    <string name="messaging_received">接收时间</string>
+    <string name="messaging_draft">草稿</string>
+    <string name="messaging_pictures">照片</string>
+    <string name="messaging_videos">视频</string>
+    <string name="messaging_audio">音频</string>
+    <string name="messaging_file_explorer">文件管理</string>
+    <string name="messaging_folder">文件夹</string>
+    <string name="messaging_phone_storage">Phone storage</string>
+    <string name="messaging_gallery">Gallery</string>
+    <string name="messaging_video">Video</string>
+    <string name="messaging_music">Music</string>
+    <string name="messaging_send_mms">发送彩信</string>
+    <string name="messaging_view">查看</string>
+    <string name="messaging_system_audio">系统音频</string>
+    <string name="messaging_play">播放</string>
+    <string name="browser_browser">浏览器</string>
+    <string name="browser_settings">设置</string>
+    <string name="browser_privacy">隐私和安全</string>
+    <string name="browser_clear_history">清除历史记录</string>
+    <string name="browser_clear_cache">清除缓存</string>
+    <string name="browser_clear_all_cookie_data">清除所有Cookie数据</string>
+    <string name="browser_ok">确定</string>
+    <string name="browser_exit">退出</string>
+    <string name="browser_loading">正在加载</string>
+    <string name="file_explorer_ok">确认</string>
+    <string name='file_explorer_confirm'>确定</string>
+    <string name="file_explorer_delete">删除</string>
+    <string name="music_songs">歌曲</string>
+    <string name="file_explorer_new_folder">新建</string>
+    <string name="file_explorer_folder">文件夹</string>
+    <string name="file_explorer_phone_storage">Phone Storage</string>
+    <string name="file_explorer_download_folder">Download</string>
+    <string name="calendar_agenda" platform=''>日程</string>
+    <string name="calendar_agenda" platform='msm8226'>日程</string>
+    <string name="calendar_delete" platform=''>删除</string>
+    <string name="calendar_delete" platform='msm8226'>删除</string>
+    <string name="calendar_ok" platform=''>确定</string>
+    <string name="calendar_ok" platform='msm8226'>确定</string>
+    <string name="calendar_day" platform=''>日</string>
+    <string name="calendar_day" platform='msm8226'>日</string>
+    <string name="calendar_done" platform=''>完成</string>
+    <string name="calendar_done" platform='msm8226'>完成</string>
+    <string name="alarm_delete_alarm" platform=''>删除闹钟</string>
+    <string name="alarm_delete_alarm" platform='msm8226'>删除闹钟</string>
+    <string name="record_folder" platform=''>Folder</string>
+    <string name="record_folder" platform='msm8226'>Folder</string>
+    <string name="sd_card" platform=''>SD card</string>
+    <string name="sd_card" platform='msm8226'>SD card</string>
+    <string name="record_done" platform=''>完成</string>
+    <string name="record_done" platform='msm8226'>完成</string>
+    <string name="record_ok" platform=''>确定</string>
+    <string name="record_ok" platform='msm8226'>确定</string>
+    <string name="record_delete" platform=''>删除</string>
+    <string name="record_delete" platform='msm8226'>删除</string>
+    <string name="browser_settings" platform=''>设置</string>
+    <string name="browser_settings" platform='msm8226'>设置</string>
+    <string name="browser_Privacy" platform=''>隐私和安全</string>
+    <string name="browser_Privacy" platform='msm8226'>隐私和安全</string>
+    <string name="browser_clear_cache" platform=''>Clear cache</string>
+    <string name="browser_clear_cache" platform='msm8226'>Clear cache</string>
+    <string name="browser_clear_history" platform=''>清除历史记录</string>
+    <string name="browser_clear_history" platform='msm8226'>清除历史记录</string>
+    <string name="browser_clear_cookie" platform=''>清除所有Cookie数据</string>
+    <string name="browser_clear_cookie" platform='msm8226'>清除所有Cookie数据</string>
+    <string name="browser_ok" platform=''>确定</string>
+    <string name="browser_ok" platform='msm8226'>确定</string>
+    <string name="music_recordings" platform=''>我的录音</string>
+    <string name="music_recordings" platform='msm8226'>我的录音</string>
+    <string name="music_your_recordings" platform=''>您的录音</string>
+    <string name="music_your_recordings" platform='msm8226'>您的录音</string>
+    <string name="phone_network_not_available">无法访问移动网络</string>
+    <string name="email_status_loading">正在加载</string>
+    <string name="email_outbox">发件箱</string>
+    <string name="email_sentbox">已发送邮件</string>
+    <string name="email_add_attachment">添加附件</string>
+    <string name="email_no_messages">无邮件</string>
+    <string name="email_file_explorer">文件管理</string>
+    <string name="email_share">分享</string>
+    <string name="email_app">电子邮件</string>
+    <string name="email_just_once">仅此一次</string>
+    <string name="email_drafts">草稿</string>
+    <string name="email_discard">放弃</string>
+    <string name="email_save_draft">保存草稿</string>
+</resources>

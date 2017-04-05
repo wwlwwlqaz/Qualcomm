@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flash_mode">Flash mode default</string>
+    <string name="5m_pixels">5M pixels</string>
+    <string name="3m_pixels">3M pixels</string>
+    <string name="test">Only me have ths</string>
+    <string name="action_using">Complete action using</string>
+    <string name="decrease_picture_size">Decrease Picture size</string>
+    <string name="increase_picture_size">Increase Picture size</string>
+    <string name="decrease_video_size">Decrease Video Encoder</string>
+    <string name="increase_video_size">Increase Video Encoder</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="yes">Yes</string>
+    <string name="remember_photo_locations">Remember photo locations</string>
+</resources>

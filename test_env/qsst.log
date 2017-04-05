@@ -1,0 +1,1267 @@
+Starting service: Intent { cmp=com.android.qrdtest/.QsstService }
+Starting service: Intent { cmp=com.android/.MyTrackService }
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.Settings }
+disable setting is false
+test_loader
+test back ground loader
+status
+init thrift
+before launch uiautomator
+adb forward tcp:7000 tcp:3000
+<thrift_gen_qsstservice.GroupTest.GroupTestMEService.Client instance at 0x0000000003402448>
+		framework API_INFO : API: is_external_storage_enable Param: no params
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CYCLE_TIME Param[2]:value=.
+		framework API_INFO : API: start_new_track Param[1]:name=2017-02-22-11_46_14 Param[2]:description=recording 2017-02-22-11_46_14
+		framework test_main : notification:start new track failed!!
+		framework TestLoader : suit_name:test_suit_settings
+		framework TestLoader : check case:test_suit_settings_case1
+		framework TestLoader : add case:test_suit_settings_case1
+		framework test_suit_settings_case1 : case added
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=SUIT_NAME Param[2]:value=test_suit_settings
+		framework test_suit_settings : suit init...
+		framework API_INFO : API: update_notificationbar Param[1]:text=presettings is running...
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_settings_case1 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_settings_case1
+		framework API_INFO : API: get_system_language Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: send_key Param[1]:key=26 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: drag_by_param Param[1]:startX=50 Param[2]:startY=90 Param[3]:endX=50 Param[4]:endY=0 Param[5]:stepCount=10
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: search_text Param[1]:text=Close Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=OK Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.settings Param[2]:activity_name=.Settings
+		framework API_INFO : API: scroll_up Param: no params
+		framework API_INFO : API: get_system_language Param: no params
+		framework API_INFO : API: click_textview_by_text Param[1]:text=Security Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: click_textview_by_text Param[1]:text=Screen lock Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: click_textview_by_text Param[1]:text=None Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: scroll_up Param: no params
+		framework API_INFO : API: click_textview_by_text Param[1]:text=Display Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: click_textview_by_text Param[1]:text=Sleep Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: click_textview_by_text Param[1]:text=30 minutes Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: click_imageview_by_index Param[1]:index=0
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework test_suit_settings_case1 : case end
+		framework test_suit_settings : suit end
+		framework test_main : stkDialog condition watcher
+		framework API_INFO : API: register_condition_action_watcher Param[1]:packageName_condition=com.android.systemui Param[2]:className_condition=4 Param[3]:idType_condition=0 Param[4]:id_condition=level_percent Param[5]:action=2 Param[6]:className_action=4 Param[7]:idType_action=0 Param[8]:id_action=level_percent
+		framework case_utility :  WATCHER condition REGISTER className 4
+		framework test_main : low battery watcher
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CYCLE_TIME Param[2]:value=.
+		framework test_main : Current report 1/1
+		framework BgTestLoader : suit_name:test_suit_background
+		framework BgTestLoader : base_path:./background_case_pool/
+		framework TestLoader : loadTestSuit suit_name:test_suit_airplanemode
+		framework TestLoader : loadTestSuit suit_name:test_suit_baidumap
+		framework TestLoader : loadTestSuit suit_name:test_suit_browser
+		framework TestLoader : loadTestSuit suit_name:test_suit_camera
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_browser
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_bt
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_calculator
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_calendar
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_camera
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_clock
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_contact
+		framework TestLoader : suit_name:test_suit_cmcc_devci_contact
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case1
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case1
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case10
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case10
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case11
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case11
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case12
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case12
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case13
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case13
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case14
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case14
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case15
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case15
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case16
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case16
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case17
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case17
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case18
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case18
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case19
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case19
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case2
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case2
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case20
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case20
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case21
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case21
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case22
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case22
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case23
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case23
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case24
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case24
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case25
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case25
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case26
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case26
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case27
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case27
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case28
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case28
+		framework test_suit_cmcc_devci_contact_case28 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case29
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case29
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case3
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case3
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case30
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case30
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case31
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case31
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case32
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case32
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case33
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case33
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case34
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case34
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case35
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case35
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case36
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case36
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case4
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case4
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case5
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case5
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case6
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case6
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case7
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case7
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case8
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case8
+		framework TestLoader : check case:test_suit_cmcc_devci_contact_case9
+		framework TestLoader : add case:test_suit_cmcc_devci_contact_case9
+		framework test_suit_cmcc_devci_contact : suit added
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_downloads
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_email
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_filemanager
+		framework TestLoader : suit_name:test_suit_cmcc_devci_filemanager
+		framework TestLoader : check case:test_suit_cmcc_devci_filemanager_case1
+		framework TestLoader : add case:test_suit_cmcc_devci_filemanager_case1
+		framework test_suit_cmcc_devci_filemanager_case1 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_filemanager_case2
+		framework TestLoader : add case:test_suit_cmcc_devci_filemanager_case2
+		framework test_suit_cmcc_devci_filemanager : suit added
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_fm
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_gallery
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_message
+		framework TestLoader : suit_name:test_suit_cmcc_devci_message
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case1
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case1
+		framework test_suit_cmcc_devci_message_case1 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case10
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case10
+		framework test_suit_cmcc_devci_message_case10 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case13
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case13
+		framework test_suit_cmcc_devci_message_case13 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case2
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case2
+		framework test_suit_cmcc_devci_message_case2 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case21
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case21
+		framework test_suit_cmcc_devci_message_case21 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case22
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case22
+		framework test_suit_cmcc_devci_message_case22 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case23
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case23
+		framework test_suit_cmcc_devci_message_case23 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case24
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case24
+		framework test_suit_cmcc_devci_message_case24 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case25
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case25
+		framework test_suit_cmcc_devci_message_case25 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case26
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case26
+		framework test_suit_cmcc_devci_message_case26 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case27
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case27
+		framework test_suit_cmcc_devci_message_case27 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case28
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case28
+		framework test_suit_cmcc_devci_message_case28 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case29
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case29
+		framework test_suit_cmcc_devci_message_case29 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case3
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case3
+		framework test_suit_cmcc_devci_message_case3 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case30
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case30
+		framework test_suit_cmcc_devci_message_case30 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case31
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case31
+		framework test_suit_cmcc_devci_message_case31 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case32
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case32
+		framework test_suit_cmcc_devci_message_case32 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case33
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case33
+		framework test_suit_cmcc_devci_message_case33 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case34
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case34
+		framework test_suit_cmcc_devci_message_case34 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case35
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case35
+		framework test_suit_cmcc_devci_message_case35 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case36
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case36
+		framework test_suit_cmcc_devci_message_case36 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case37
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case37
+		framework test_suit_cmcc_devci_message_case37 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case38
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case38
+		framework test_suit_cmcc_devci_message_case38 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case39
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case39
+		framework test_suit_cmcc_devci_message_case39 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case4
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case4
+		framework test_suit_cmcc_devci_message_case4 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case42
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case42
+		framework test_suit_cmcc_devci_message_case42 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case43
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case43
+		framework test_suit_cmcc_devci_message_case43 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case44
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case44
+		framework test_suit_cmcc_devci_message_case44 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case45
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case45
+		framework test_suit_cmcc_devci_message_case45 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case47
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case47
+		framework test_suit_cmcc_devci_message_case47 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case5
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case5
+		framework test_suit_cmcc_devci_message_case5 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case51
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case51
+		framework test_suit_cmcc_devci_message_case51 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case53
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case53
+		framework test_suit_cmcc_devci_message_case53 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case56
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case56
+		framework test_suit_cmcc_devci_message_case56 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case57
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case57
+		framework test_suit_cmcc_devci_message_case57 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case6
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case6
+		framework test_suit_cmcc_devci_message_case6 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case60
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case60
+		framework test_suit_cmcc_devci_message_case60 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case7
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case7
+		framework test_suit_cmcc_devci_message_case7 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case8
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case8
+		framework test_suit_cmcc_devci_message_case8 : case added
+		framework TestLoader : check case:test_suit_cmcc_devci_message_case9
+		framework TestLoader : add case:test_suit_cmcc_devci_message_case9
+		framework test_suit_cmcc_devci_message_case9 : case added
+		framework test_suit_cmcc_devci_message : suit added
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_music
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_notes
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_phone
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_profilemanager
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_search
+		framework TestLoader : suit_name:test_suit_cmcc_devci_search
+		framework TestLoader : check case:test_suit_cmcc_devci_search_case1
+		framework TestLoader : add case:test_suit_cmcc_devci_search_case1
+		framework test_suit_cmcc_devci_search_case1 : case added
+		framework test_suit_cmcc_devci_search : suit added
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_settings
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_soundrecorder
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_videos
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_wlan
+		framework TestLoader : suit_name:test_suit_cmcc_devci_wlan
+		framework TestLoader : check case:test_suit_cmcc_devci_wlan_case1
+		framework TestLoader : add case:test_suit_cmcc_devci_wlan_case1
+		framework TestLoader : check case:test_suit_cmcc_devci_wlan_case2
+		framework TestLoader : add case:test_suit_cmcc_devci_wlan_case2
+		framework test_suit_cmcc_devci_wlan_case2 : case added
+		framework test_suit_cmcc_devci_wlan : suit added
+		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_mtbf
+		framework TestLoader : loadTestSuit suit_name:test_suit_common
+		framework TestLoader : loadTestSuit suit_name:test_suit_contacts
+		framework TestLoader : loadTestSuit suit_name:test_suit_doubanfm
+		framework TestLoader : loadTestSuit suit_name:test_suit_email
+		framework TestLoader : loadTestSuit suit_name:test_suit_gallery
+		framework TestLoader : loadTestSuit suit_name:test_suit_gmail
+		framework TestLoader : loadTestSuit suit_name:test_suit_gps
+		framework TestLoader : loadTestSuit suit_name:test_suit_grouptest
+		framework TestLoader : loadTestSuit suit_name:test_suit_launcher
+		framework TestLoader : loadTestSuit suit_name:test_suit_mms
+		framework TestLoader : loadTestSuit suit_name:test_suit_phone
+		framework TestLoader : loadTestSuit suit_name:test_suit_playstore
+		framework TestLoader : loadTestSuit suit_name:test_suit_renren
+		framework TestLoader : loadTestSuit suit_name:test_suit_sample
+		framework TestLoader : loadTestSuit suit_name:test_suit_scenario1
+		framework TestLoader : loadTestSuit suit_name:test_suit_settings
+		framework TestLoader : loadTestSuit suit_name:test_suit_shieldbox
+		framework TestLoader : loadTestSuit suit_name:test_suit_smoke
+		framework TestLoader : loadTestSuit suit_name:test_suit_stress_test_camera
+		framework TestLoader : loadTestSuit suit_name:test_suit_stress_test_camera1
+		framework TestLoader : loadTestSuit suit_name:test_suit_test_ime
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_apk_cmcc
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_browser
+		framework TestLoader : suit_name:test_suit_ui_browser
+		framework TestLoader : check case:test_suit_ui_browser_case01
+		framework TestLoader : add case:test_suit_ui_browser_case01
+		framework test_suit_ui_browser_case01 : case added
+		framework TestLoader : check case:test_suit_ui_browser_case02
+		framework TestLoader : add case:test_suit_ui_browser_case02
+		framework test_suit_ui_browser_case02 : case added
+		framework TestLoader : check case:test_suit_ui_browser_case03
+		framework TestLoader : add case:test_suit_ui_browser_case03
+		framework test_suit_ui_browser_case03 : case added
+		framework TestLoader : check case:test_suit_ui_browser_case04
+		framework TestLoader : add case:test_suit_ui_browser_case04
+		framework test_suit_ui_browser_Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.contacts/.activities.PeopleActivity }
+[ 85%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+case04 : case added
+		framework TestLoader : check case:test_suit_ui_browser_case05
+		framework TestLoader : add case:test_suit_ui_browser_case05
+		framework test_suit_ui_browser_case05 : case added
+		framework test_suit_ui_browser : suit added
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_contact
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_customer_issue
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_dev_ci
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_file_explorer
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_gallery
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_launcher
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_message
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_native_apk
+		framework TestLoader : loadTestSuit suit_name:test_suit_ui_phone
+		framework TestLoader : loadTestSuit suit_name:test_suit_weibo
+		framework TestLoader : loadTestSuit suit_name:test_suit_wifi
+		framework test_main : All test suites (6) :
+		framework test_main : Suit : test_suit_cmcc_devci_contact
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=SUIT_NAME Param[2]:value=test_suit_cmcc_devci_contact
+		framework test_suit_cmcc_devci_contact : suit init...
+		framework notify : (1/1)contant Module.Move contact from favorite
+		framework API_INFO : API: update_notificationbar Param[1]:text=(1/1)contant Module.Move contact from favorite
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_cmcc_devci_contact_case28 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_cmcc_devci_contact_case28
+		framework API_INFO : API: get_system_language Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework test_suit_cmcc_devci_contact_case28 :  -Start
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.contacts Param[2]:activity_name=com.android.contacts.activities.PeopleActivity
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x0000000003889F28> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_text Param[1]:text=Contacts Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework case_utility : <function <lambda> at 0x0000000003889F28> expected True
+	case test_suit_cmcc_devci_contact_case28 : Enter contact successfully
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: click_textview_by_text Param[1]:text=Favorites Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: click_textview_by_text Param[1]:text=case Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework logging_wrapper : exception: ServerActEx(msg='for text= "case"')
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_contact\test_suit_cmcc_devci_contact_case28\2017-02-22-11_48_19.logcat
+		framework TestCaseBase : Exception is :ASSERTFAILEDEXCEPTION:ServerActEx(msg='for text= "case"')
+		framework TestCaseBase : Traceback :Traceback (most recent call last):
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\test_case_base.py", line 190, in test_cas[ 85%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.cyanogenmod.filemanager/.activities.NavigationActivity }
+e_run
+    success = self.test_case_main(case_results)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\test_suit_cmcc_devci_contact\test_suit_cmcc_devci_contact_case28.py", line 42, in test_case_main
+    click_textview_by_text("case")
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\utility_wrapper.py", line 512, in _api_log_decorator
+    ret= function(*args, **kwargs)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\case_utility.py", line 362, in click_textview_by_text
+    deal_remote_exception(tx)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\utility_wrapper.py", line 432, in deal_remote_exception
+    raise AssertFailedException(ex)
+AssertFailedException: ASSERTFAILEDEXCEPTION:ServerActEx(msg='for text= "case"')
+
+	case test_suit_cmcc_devci_contact_case28 : Dev-ci cases: Contact  : end
+	case test_suit_cmcc_devci_contact_case28 : Dev-ci cases: Contact  : case fail
+		repost test_suit_cmcc_devci_contact_case28Dev-ci cases: Contact  : 	fail
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_contact\test_suit_cmcc_devci_contact_case28\2017-02-22-11_48_21.logcat
+		repost Total:0/0
+		framework test_suit_cmcc_devci_contact : suit end
+		framework test_main : Suit : test_suit_cmcc_devci_filemanager
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=SUIT_NAME Param[2]:value=test_suit_cmcc_devci_filemanager
+		framework test_suit_cmcc_devci_filemanager : suit init...
+		framework notify : (1/1)Filemanager Module.Launch Filemanager and exit
+		framework API_INFO : API: update_notificationbar Param[1]:text=(1/1)Filemanager Module.Launch Filemanager and exit
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_cmcc_devci_filemanager_case1 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_cmcc_devci_filemanager_case1
+		framework API_INFO : API: get_system_language Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework Dev-ci cases: Filemanager  : test_suit_cmcc_devci_filemanager_case1 -Start
+This is iteration 1
+		framework API_INFO : API: start_activity Param[1]:package_name=com.cyanogenmod.filemanager Param[2]:activity_name=com.cyanogenmod.filemanager.activities.NavigationActivity
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000047FFDD8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework case_utility : <function <lambda> at 0x00000000047FFDD8> expected True
+		framework API_INFO : API: search_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: click_button_by_id Param[1]:_id=permission_allow_button Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allo[ 37%] /sdcard/com.android.qrdtest/temp.jpg
+[ 74%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+[ 37%] /sdcard/com.android.qrdtest/temp.jpg
+[ 74%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+w_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000047FFDD8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_text Param[1]:text=DCIM Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=navigation_view_item_icon
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Actions
+		framework API_INFO : API: search_view_by_id Param[1]:_id=navigation_view_item_check
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000047FFDD8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=ab_actions Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Android Param[3]:isVerticalList=1 Param[4]:isScrollable=1 Param[5]:searchFlag=2
+		framework API_INFO : API: search_view_by_id Param[1]:_id=ab_search
+		framework API_INFO : API: search_text Param[1]:text=Android Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Open navigation drawer
+		framework API_INFO : API: search_view_by_id Param[1]:_id=ab_filesystem_info
+		framework API_INFO : API: search_text Param[1]:text=has stopped Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework cmcc_devci_filemanager_case1: : Launch filemanager fail
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_filemanager\test_suit_cmcc_devci_filemanager_case1\2017-02-22-11_49_41.logcat
+		framework TestCaseBase : Exception is :local variable 'case_flag' referenced before assignment
+		framework TestCaseBase : Traceback :Traceback (most recent call last):
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\test_case_base.py", line 190, in test_case_run
+    success = self.test_case_main(case_results)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\test_suit_cmcc_devci_filemanager\test_suit_cmcc_devci_filemanager_case1.py", line 89, in test_case_main
+    case_flag = repeat_cmcc_devci(execute)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\case_utility.py", line 3989, in repeat_cmcc_devci
+    func = funcName()
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\test_suit_cmcc_devci_filemanager\test_suit_cmcc_devci_filemanager_case1.py", line 87, in execute
+    return case_flag
+UnboundLocalError: local variable 'case_flag' referenced before assignment
+
+	case test_suit_cmcc_devci_filemanager_case1 : Dev-ci cases: Filemanager  : end
+	case test_suit_cmcc_devci_filemanager_case1 : Dev-ci cases: Filemanager  : case fail
+		repost test_suit_cmcc_devci_filemanager_case1Dev-ci cases: Filemanager  : 	fail
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_filemanager\test_suit_cmcc_devci_filemanager_case1\2017-02-22-11_49_43.logcat
+		repost Total:0/0
+		framework test_suit_cmcc_devci_filemanager : suit end
+		framework test_main : Suit : test_suit_cmcc_devci_message
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=SUIT_NAME Param[2]:value=test_suit_cmcc_devci_message
+		framework test_suit_cmcc_devci_message : suit init...
+		frameworStarting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.systemui/.recents.RecentsActivity }
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.Settings }
+k notify : (1/1)Messager Module.MO/MT MMS to/from China Mobile
+		framework API_INFO : API: update_notificationbar Param[1]:text=(1/1)Messager Module.MO/MT MMS to/from China Mobile
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_cmcc_devci_message_case1 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_cmcc_devci_message_case1
+		framework API_INFO : API: get_system_language Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+	case test_suit_cmcc_devci_message_case1 : test_suit_cmcc_devci_message_case1 : case Start
+		framework Dev-ci cases: Messager  : test_suit_cmcc_devci_message_case1 -Start
+		framework API_INFO : API: wakeUpDevice Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Close Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=OK Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.systemui Param[2]:activity_name=com.android.systemui.recents.RecentsActivity
+		framework API_INFO : API: search_text Param[1]:text=Your recent screens appear here Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : clear pid finished
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.settings Param[2]:activity_name=.Settings
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_text Param[1]:text=SIM cards Param[2]:isVerticalList=1 Param[3]Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList }
+[ 63%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: click_textview_by_text Param[1]:text=SIM cards Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: search_text Param[1]:text=SMS messages Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework API_INFO : API: click_textview_by_text Param[1]:text=SMS messages Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: click_in_list_by_index Param[1]:index=1 Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.mms Param[2]:activity_name=com.android.mms.ui.ConversationList
+		framework API_INFO : API: sleep Param[1]:_time=10
+		framework API_INFO : API: search_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: click_textview_by_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=4
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: click_button_by_id Param[1]:_id=permission_allow_button Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+	case test_suit_cmcc_devci_message_case1 : Enter Message successfully
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+		framework API_INFO : API: click_button_by_id Param[1]:_id=create Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: click_textview_by_id Param[1]:_id=recipients_editor Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: entertext_edittext_on_focused Param[1]:value=13916371096 Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:isClear=1
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: send_key Param[1]:key=66 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: click_imageview_by_desc Param[1]:desc=Attach Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: click_textview_by_text Param[1]:text=Capture Picture Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at[ 18%] /sdcard/com.android.qrdtest/temp.jpg
+[ 36%] /sdcard/com.android.qrdtest/temp.jpg
+[ 54%] /sdcard/com.android.qrdtest/temp.jpg
+[ 72%] /sdcard/com.android.qrdtest/temp.jpg
+[ 90%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+[ 11%] /sdcard/com.android.qrdtest/temp.jpg
+[ 23%] /sdcard/com.android.qrdtest/temp.jpg
+[ 35%] /sdcard/com.android.qrdtest/temp.jpg
+[ 47%] /sdcard/com.android.qrdtest/temp.jpg
+[ 59%] /sdcard/com.android.qrdtest/temp.jpg
+[ 71%] /sdcard/com.android.qrdtest/temp.jpg
+[ 83%] /sdcard/com.android.qrdtest/temp.jpg
+[ 95%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+ 0x00000000047FFD68> Param[2]:flag=True Param[3]:timeout=8 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework case_utility : <function <lambda> at 0x00000000047FFD68> expected True
+		framework API_INFO : API: click_button_by_id Param[1]:_id=permission_allow_button Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000047FFD68> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_text Param[1]:text=OK Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework case_utility : <function <lambda> at 0x00000000047FFD68> expected True
+		framework API_INFO : API: click_textview_by_text Param[1]:text=OK Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000047FFD68> Param[2]:flag=True Param[3]:timeout=10 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=shutter_button
+		framework case_utility : <function <lambda> at 0x00000000047FFD68> expected True
+		framework API_INFO : API: click_button_by_id Param[1]:_id=shutter_button Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000047FFD68> Param[2]:flag=True Param[3]:timeout=10 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Review done
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Review done
+		framework case_utility : <function <lambda> at 0x00000000047FFD68> expected True
+		framework API_INFO : API: click_imageview_by_desc Param[1]:desc=Review done Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: search_view_by_id Param[1]:_id=send_button_mms
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=send_button_mms Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=120
+		framework API_INFO : API: search_text Param[1]:text=Sent Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+	case test_suit_cmcc_devci_message_case1 : Send mms from SIM1 failed
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+	case test_suit_cmcc_devci_message_case1 : Dev-ci cases: Messager  : end
+	case test_suit_cmcc_devci_message_case1 : Dev-ci cases: Messager  : case fail
+		repost test_suit_cmcc_devci_message_case1Dev-ci cases: Messager  : 	fail
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_message\test_suit_cmcc_devci_message_case1\2017-02-22-11_54_19.logcat
+		framework notify : (1/1)Messager Module.Attachment-Slideshow-replace captured video clip
+		framework API_INFO : API: update_notificationbar Param[1]:text=(1/1)Messager Module.Attachment-Slideshow-replace captured video clip
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_cmcc_devci_message_case10 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_cmcc_devci_message_case10
+		framework API_INFO : API: get_system_language Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.systemui/.recents.RecentsActivity }
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.Settings }
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList }
+Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+	case test_suit_cmcc_devci_message_case10 : test_suit_cmcc_devci_message_case10 : case Start
+		framework Dev-ci cases: Messager  : test_suit_cmcc_devci_message_case10 -Start
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.systemui Param[2]:activity_name=com.android.systemui.recents.RecentsActivity
+		framework API_INFO : API: search_text Param[1]:text=Your recent screens appear here Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : clear pid finished
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.settings Param[2]:activity_name=.Settings
+		framework API_INFO : API: search_text Param[1]:text=SIM cards Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: click_textview_by_text Param[1]:text=SIM cards Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: search_text Param[1]:text=SMS messages Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework API_INFO : API: click_textview_by_text Param[1]:text=SMS messages Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: click_in_list_by_index Param[1]:index=1 Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.mms Param[2]:activity_name=com.android.mms.ui.ConversationList
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=banner_sms_promo_title
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:id[ 11%] /sdcard/com.android.qrdtest/temp.jpg
+[ 23%] /sdcard/com.android.qrdtest/temp.jpg
+[ 35%] /sdcard/com.android.qrdtest/temp.jpg
+[ 47%] /sdcard/com.android.qrdtest/temp.jpg
+[ 59%] /sdcard/com.android.qrdtest/temp.jpg
+[ 71%] /sdcard/com.android.qrdtest/temp.jpg
+[ 83%] /sdcard/com.android.qrdtest/temp.jpg
+[ 95%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+Type="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: is_view_enabled_by_text Param[1]:view_type=1 Param[2]:text=Messaging Param[3]:isVerticalList=1 Param[4]:isScrollable=0 Param[5]:searchFlag=0
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=4 Param[2]:_id=action_compose_new Param[3]:isVerticalList=1 Param[4]:isScrollable=0
+		framework Mms : not find message home flag
+		framework API_INFO : API: goback Param[1]:className="" Param[2]:idType="" Param[3]:id=""
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: click_textview_by_id Param[1]:_id=from Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=1
+		framework logging_wrapper : exception: ServerActEx(msg='list waitForExists false UiObject cannot be found.')
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_message\test_suit_cmcc_devci_message_case10\2017-02-22-11_56_27.logcat
+		framework TestCaseBase : Exception is :ASSERTFAILEDEXCEPTION:ServerActEx(msg='list waitForExists false UiObject cannot be found.')
+		framework TestCaseBase : Traceback :Traceback (most recent call last):
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\test_case_base.py", line 190, in test_case_run
+    success = self.test_case_main(case_results)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\test_suit_cmcc_devci_message\test_suit_cmcc_devci_message_case10.py", line 40, in test_case_main
+    mms.delete_all_threa[ 11%] /sdcard/com.android.qrdtest/temp.jpg
+[ 23%] /sdcard/com.android.qrdtest/temp.jpg
+[ 35%] /sdcard/com.android.qrdtest/temp.jpg
+[ 47%] /sdcard/com.android.qrdtest/temp.jpg
+[ 59%] /sdcard/com.android.qrdtest/temp.jpg
+[ 71%] /sdcard/com.android.qrdtest/temp.jpg
+[ 83%] /sdcard/com.android.qrdtest/temp.jpg
+[ 95%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.systemui/.recents.RecentsActivity }
+ds()
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\qrd_shared\mms\Mms.py", line 87, in delete_all_threads
+    click_textview_by_id('from',clickType=LONG_CLICK)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\utility_wrapper.py", line 512, in _api_log_decorator
+    ret= function(*args, **kwargs)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\case_utility.py", line 327, in click_textview_by_id
+    deal_remote_exception(tx)
+  File "C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\utility_wrapper.py", line 432, in deal_remote_exception
+    raise AssertFailedException(ex)
+AssertFailedException: ASSERTFAILEDEXCEPTION:ServerActEx(msg='list waitForExists false UiObject cannot be found.')
+
+	case test_suit_cmcc_devci_message_case10 : Dev-ci cases: Messager  : end
+	case test_suit_cmcc_devci_message_case10 : Dev-ci cases: Messager  : case fail
+		repost test_suit_cmcc_devci_message_case10Dev-ci cases: Messager  : 	fail
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_message\test_suit_cmcc_devci_message_case10\2017-02-22-11_56_30.logcat
+		framework notify : (1/1)Messager Module.launch MMS from other Applications-Gallery
+		framework API_INFO : API: update_notificationbar Param[1]:text=(1/1)Messager Module.launch MMS from other Applications-Gallery
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_cmcc_devci_message_case13 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_cmcc_devci_message_case13
+		framework API_INFO : API: get_system_language Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+	case test_suit_cmcc_devci_message_case13 : test_suit_cmcc_devci_message_case13 : case Start
+		framework Dev-ci cases: Messager  : test_suit_cmcc_devci_message_case13 -Start
+		framework API_INFO : API: wakeUpDevice Param: no params
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.systemui Param[2]:activity_name=com.android.systemui.recents.RecentsActivity
+		framework API_INFO : API: search_text Param[1]:text=Your recent screens appear here Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiStarting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.Settings }
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList }
+[ 62%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+ss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : clear pid finished
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.settings Param[2]:activity_name=.Settings
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_text Param[1]:text=SIM cards Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: click_textview_by_text Param[1]:text=SIM cards Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: search_text Param[1]:text=SMS messages Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework API_INFO : API: click_textview_by_text Param[1]:text=SMS messages Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: click_in_list_by_index Param[1]:index=1 Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.mms Param[2]:activity_name=com.android.mms.ui.ConversationList
+		framework API_INFO : API: sleep Param[1]:_time=10
+		framework API_INFO : API: search_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+	case test_suit_cmcc_devci_message_case13 : Enter Message successfully
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+		framework API_INFO : API: click_button_by_id Param[1]:_id=create Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: click_textview_by_id Param[1]:_id=recipients_editor Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: entertext_edittext_on_focused Param[1]:value=13916370096 Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:isClear=1
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: send_key Param[1]:key=66 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: click_imageview_by_desc Param[1]:desc=Attach Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: click_textview_by_text Param[1]:text=Capture Picture Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DC9E8> Param[2]:flag=True Param[3]:timeout=8 Param[4]:sleeptime=1
+		framework API_I[ 18%] /sdcard/com.android.qrdtest/temp.jpg
+[ 36%] /sdcard/com.android.qrdtest/temp.jpg
+[ 54%] /sdcard/com.android.qrdtest/temp.jpg
+[ 72%] /sdcard/com.android.qrdtest/temp.jpg
+[ 91%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+[ 11%] /sdcard/com.android.qrdtest/temp.jpg
+[ 23%] /sdcard/com.android.qrdtest/temp.jpg
+[ 35%] /sdcard/com.android.qrdtest/temp.jpg
+[ 47%] /sdcard/com.android.qrdtest/temp.jpg
+[ 59%] /sdcard/com.android.qrdtest/temp.jpg
+[ 71%] /sdcard/com.android.qrdtest/temp.jpg
+[ 83%] /sdcard/com.android.qrdtest/temp.jpg
+[ 95%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+NFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DC9E8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_text Param[1]:text=OK Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DC9E8> Param[2]:flag=True Param[3]:timeout=10 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=shutter_button
+		framework case_utility : <function <lambda> at 0x00000000046DC9E8> expected True
+		framework API_INFO : API: click_button_by_id Param[1]:_id=shutter_button Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DC9E8> Param[2]:flag=True Param[3]:timeout=10 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Review done
+		framework case_utility : <function <lambda> at 0x00000000046DC9E8> expected True
+		framework API_INFO : API: click_imageview_by_desc Param[1]:desc=Review done Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: search_view_by_id Param[1]:_id=send_button_mms
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=send_button_mms Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=120
+		framework API_INFO : API: search_text Param[1]:text=Sent Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+	case test_suit_cmcc_devci_message_case13 : Send mms from SIM1 failed
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+	case test_suit_cmcc_devci_message_case13 : Dev-ci cases: Messager  : end
+	case test_suit_cmcc_devci_message_case13 : Dev-ci cases: Messager  : case fail
+		repost test_suit_cmcc_devci_message_case13Dev-ci cases: Messager  : 	fail
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_message\test_suit_cmcc_devci_message_case13\2017-02-22-12_00_51.logcat
+		framework notify : (1/1)Messager Module.MO/MT SMS  to/from China Mobile
+		framework API_INFO : API: update_notificationbar Param[1]:text=(1/1)Messager Module.MO/MT SMS  to/from China Mobile
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_cmcc_devci_message_case2 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_cmcc_devci_message_case2
+		framework API_INFO : API: get_system_language Param: noStarting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.systemui/.recents.RecentsActivity }
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.Settings }
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList }
+ params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+	case test_suit_cmcc_devci_message_case2 : test_suit_cmcc_devci_message_case2 : case Start
+		framework Dev-ci cases: Messager  : test_suit_cmcc_devci_message_case2 -Start
+		framework API_INFO : API: wakeUpDevice Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Close Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=OK Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.systemui Param[2]:activity_name=com.android.systemui.recents.RecentsActivity
+		framework API_INFO : API: search_text Param[1]:text=Your recent screens appear here Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : found the dismiss_task
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=dismiss_task Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps
+		framework API_INFO : API: is_view_enabled_by_id Param[1]:view_type=3 Param[2]:_id=dismiss_task Param[3]:isVerticalList=1 Param[4]:isScrollable=1
+		framework Settings : clear pid finished
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.settings Param[2]:activity_name=.Settings
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_text Param[1]:text=SIM cards Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: click_textview_by_text Param[1]:text=SIM cards Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: search_text Param[1]:text=SMS messages Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework API_INFO : API: click_textview_by_text Param[1]:text=SMS messages Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: click_in_list_by_index Param[1]:index=1 Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.mms Param[2]:activity_name=com.android.mms.ui.ConversationList
+		framework API_[ 18%] /sdcard/com.android.qrdtest/temp.jpg
+[ 37%] /sdcard/com.android.qrdtest/temp.jpg
+[ 55%] /sdcard/com.android.qrdtest/temp.jpg
+[ 74%] /sdcard/com.android.qrdtest/temp.jpg
+[ 92%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+[ 11%] /sdcard/com.android.qrdtest/temp.jpg
+[ 23%] /sdcard/com.android.qrdtest/temp.jpg
+[ 35%] /sdcard/com.android.qrdtest/temp.jpg
+[ 47%] /sdcard/com.android.qrdtest/temp.jpg
+[ 59%] /sdcard/com.android.qrdtest/temp.jpg
+[ 71%] /sdcard/com.android.qrdtest/temp.jpg
+[ 83%] /sdcard/com.android.qrdtest/temp.jpg
+[ 95%] /sdcard/com.android.qrdtest/temp.jpg
+[100%] /sdcard/com.android.qrdtest/temp.jpg
+INFO : API: sleep Param[1]:_time=10
+		framework API_INFO : API: search_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+	case test_suit_cmcc_devci_message_case2 : Enter Message successfully
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+		framework API_INFO : API: click_button_by_id Param[1]:_id=create Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: click_textview_by_id Param[1]:_id=recipients_editor Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: entertext_edittext_by_id Param[1]:_id=recipients_editor Param[2]:value=13916371096 Param[3]:isVerticalList=1 Param[4]:isScrollable=1 Param[5]:isClear=1
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: send_key Param[1]:key=66 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: click_textview_by_id Param[1]:_id=embedded_text_editor Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: entertext_edittext_by_id Param[1]:_id=embedded_text_editor Param[2]:value=hi139 Param[3]:isVerticalList=1 Param[4]:isScrollable=1 Param[5]:isClear=1
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: click_imageview_by_id Param[1]:_id=send_button_sms Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: search_text Param[1]:text=Sent Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+	case test_suit_cmcc_devci_message_case2 : case fail
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=2
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+	case test_suit_cmcc_devci_message_case2 : Dev-ci cases: Messager  : end
+	case test_suit_cmcc_devci_message_case2 : Dev-ci cases: Messager  : case fail
+		repost test_suit_cmcc_devci_message_case2Dev-ci cases: Messager  : 	fail
+		framework logging_wrapper : save log : logcat -d  -v time > C:\QSST_Android7.0_0629_2016_2.0.3\data\test_env\com.android.qrdtest\2017-02-22-11_46_14\test_suit_cmcc_devci_message\test_suit_cmcc_devci_message_case2\2017-02-22-12_03_21.logcat
+		framework notify : (1/1)Messager Module.Launch SMS/MMS and exit
+		framework API_IStarting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList }
+NFO : API: update_notificationbar Param[1]:text=(1/1)Messager Module.Launch SMS/MMS and exit
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_cmcc_devci_message_case21 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_cmcc_devci_message_case21
+		framework API_INFO : API: get_system_language Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+	case test_suit_cmcc_devci_message_case21 : test_suit_cmcc_devci_message_case21 : case Start
+		framework Dev-ci cases: Messager  : test_suit_cmcc_devci_message_case21 -Start
+This is iteration 1
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.mms Param[2]:activity_name=com.android.mms.ui.ConversationList
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+		framework case_utility : <function <lambda> at 0x00000000046DCA58> expected True
+	case test_suit_cmcc_devci_message_case21 : Enter Message successfully
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=3 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps list
+		framework case_utility : <function <lambda> at 0x00000000046DCA58> expected True
+	case test_suit_cmcc_devci_message_casStarting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList }
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList }
+e21 : Back to home successfully
+This is iteration 2
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.mms Param[2]:activity_name=com.android.mms.ui.ConversationList
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+		framework case_utility : <function <lambda> at 0x00000000046DCA58> expected True
+	case test_suit_cmcc_devci_message_case21 : Enter Message successfully
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=3 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps list
+		framework case_utility : <function <lambda> at 0x00000000046DCA58> expected True
+	case test_suit_cmcc_devci_message_case21 : Back to home successfully
+This is iteration 3
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.mms Param[2]:activity_name=com.android.mms.ui.ConversationList
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.mms/.ui.ConversationList }
+:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+		framework case_utility : <function <lambda> at 0x00000000046DCA58> expected True
+	case test_suit_cmcc_devci_message_case21 : Enter Message successfully
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DCA58> Param[2]:flag=True Param[3]:timeout=3 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_desc Param[1]:desc=Apps list
+		framework case_utility : <function <lambda> at 0x00000000046DCA58> expected True
+	case test_suit_cmcc_devci_message_case21 : Back to home successfully
+['True', 'True', 'True']
+	case test_suit_cmcc_devci_message_case21 : Dev-ci cases: Messager  : end
+	case test_suit_cmcc_devci_message_case21 : Dev-ci cases: Messager : case pass
+		repost test_suit_cmcc_devci_message_case21Dev-ci cases: Messager  : 	pass
+		framework notify : (1/1)Messager Module.Send/Receive SMS from SIM1
+		framework API_INFO : API: update_notificationbar Param[1]:text=(1/1)Messager Module.Send/Receive SMS from SIM1
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework logging_wrapper : suspend_flag = false, ---2  getprop
+		framework test_suit_cmcc_devci_message_case22 : case init...
+		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_cmcc_devci_message_case22
+		framework API_INFO : API: get_system_language Param: no params
+		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+		framework API_INFO : API: get_activity_name Param: no params
+		framework case_utility : hard code get activity name
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+	case test_suit_cmcc_devci_message_case22 : test_suit_cmcc_devci_message_case22 : case Start
+		framework Dev-ci cases: Messager  : test_suit_cmcc_devci_message_case22 -Start
+		framework API_INFO : API: start_activity Param[1]:package_name=com.android.mms Param[2]:activity_name=com.android.mms.ui.ConversationList
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DC9E8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_text Param[1]:text=NEXT Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000046DC9E8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=permission_allow_button
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+	case test_suit_cmcc_devci_message_case22 : Enter Message successfully
+		framework API_INFO : API: sleep Param[1]:_time=1
+		framework API_INFO : API: search_view_by_id Param[1]:_id=create
+		framework API_INFO : API: click_button_by_id Param[1]:_id=create Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: search_view_by_id Param[1]:_id=action_compose_new
+		framework API_INFO : API: click_textview_by_id Param[1]:_id=recipients_editor Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: entertext_edittext_by_id Param[1]:_id=recipients_editor Param[2]:value=13916371096 Param[3]:isVerticalList=1 Param[4]:isScrollable=1 Param[5]:isClear=1
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: send_key Param[1]:key=66 Param[2]:keyType=0
+		framework API_INFO : API: sleep Param[1]:_time=5
+		framework API_INFO : API: click_textview_by_id Param[1]:_id=embedded_text_editor Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+		framework API_INFO : API: sleep Param[1]:_time=3
+		framework API_INFO : API: entertext_edittext_by_id Param[1]:_id=embedded_text_editor Param[2]:value=hi139 Param[3]:isVerticalList=1 Param[4]:isScrollable=1 Param[5]:isClear=1
+		framework API_INFO : API: sleep Param[1]:_time=5

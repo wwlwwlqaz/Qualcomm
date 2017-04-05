@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="can_not_connection">have a network connection</string>
+    <string name="account_exist">Account already exists</string>
+    <string name="app_gmail">Google</string>
+    <string name="clause">Google Play</string>
+    <string name="can_not_login">Couldn't sign in</string>
+    <string name="waiting_for_sync">Waiting for sync</string>
+    <string name="inbox">Inbox</string>
+    <string name="sending">Sending message</string>
+    <string name="reply">reply</string>
+</resources>

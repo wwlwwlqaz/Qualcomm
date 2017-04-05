@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messaging_attach">Attach</string>
+    <string name="messaging_capture_picture">Capture picture</string>
+    <string name="messaging_delete_all_threads">Delete all threads</string>
+    <string name="messaging_received">Received</string>
+    <string name="messaging_mms">MMS</string>
+    <string name="messaging_no_conversations">No conversations</string>
+    <string name="messaging_type_message">Type message</string>
+    <string name="messaging_sent">Sent:</string>
+    <string name="messaging_received">Received:</string>
+    <string name="messaging_draft">Draft</string>
+    <string name="messaging_pictures">Pictures</string>
+    <string name="messaging_videos">Videos</string>
+    <string name="messaging_audio">Audio</string>
+    <string name="messaging_file_explorer">File Explorer</string>
+    <string name="messaging_folder">FOLDER</string>
+    <string name="messaging_phone_storage">Phone storage</string>
+    <string name="messaging_gallery">Gallery</string>
+    <string name="messaging_video">Video</string>
+    <string name="messaging_music">Music</string>
+    <string name="messaging_send_mms">Send MMS</string>
+    <string name="messaging_view">View</string>
+    <string name="messaging_system_audio">System audio</string>
+    <string name="messaging_play">Play</string>
+    <string name="browser_browser">Browser</string>
+    <string name="browser_settings">Settings</string>
+    <string name="browser_privacy">Privacy</string>
+    <string name="browser_clear_history">Clear history</string>
+    <string name="browser_clear_cache">Clear cache</string>
+    <string name="browser_clear_all_cookie_data">Clear all cookie data</string>
+    <string name="browser_ok">OK</string>
+    <string name="browser_exit">Exit</string>
+    <string name="browser_loading">loading</string>
+    <string name="file_explorer_ok">OK</string>
+    <string name='file_explorer_confirm'>OK</string>
+    <string name="file_explorer_delete">Delete</string>
+    <string name="music_songs">Songs</string>
+    <string name="file_explorer_new_folder">New</string>
+    <string name="file_explorer_folder">FOLDER</string>
+    <string name="file_explorer_phone_storage">Phone Storage</string>
+    <string name="file_explorer_download_folder">Download</string>
+    <string name="calendar_agenda" platform=''>Agenda</string>
+    <string name="calendar_agenda" platform='msm8226'>Agenda</string>
+    <string name="calendar_delete" platform=''>Delete</string>
+    <string name="calendar_delete" platform='msm8226'>Delete</string>
+    <string name="calendar_ok" platform=''>OK</string>
+    <string name="calendar_ok" platform='msm8226'>OK</string>
+    <string name="calendar_day" platform=''>Day</string>
+    <string name="calendar_day" platform='msm8226'>Day</string>
+    <string name="calendar_done" platform=''>Done</string>
+    <string name="calendar_done" platform='msm8226'>Done</string>
+    <string name="alarm_delete_alarm" platform=''>Delete alarm</string>
+    <string name="alarm_delete_alarm" platform='msm8226'>Delete alarm</string>
+    <string name="record_folder" platform=''>Folder</string>
+    <string name="record_folder" platform='msm8226'>Folder</string>
+    <string name="sd_card" platform=''>SD card</string>
+    <string name="sd_card" platform='msm8226'>SD card</string>
+    <string name="record_done" platform=''>Done</string>
+    <string name="record_done" platform='msm8226'>Done</string>
+    <string name="record_ok" platform=''>OK</string>
+    <string name="record_ok" platform='msm8226'>OK</string>
+    <string name="record_delete" platform=''>Delete</string>
+    <string name="record_delete" platform='msm8226'>Delete</string>
+    <string name="browser_settings" platform=''>Settings</string>
+    <string name="browser_settings" platform='msm8226'>Settings</string>
+    <string name="browser_Privacy" platform=''>Privacy</string>
+    <string name="browser_Privacy" platform='msm8226'>Privacy</string>
+    <string name="browser_clear_cache" platform=''>Clear cache</string>
+    <string name="browser_clear_cache" platform='msm8226'>Clear cache</string>
+    <string name="browser_clear_history" platform=''>Clear history</string>
+    <string name="browser_clear_history" platform='msm8226'>Clear history</string>
+    <string name="browser_clear_cookie" platform=''>Clear all cookie data</string>
+    <string name="browser_clear_cookie" platform='msm8226'>Clear all cookie data</string>
+    <string name="browser_ok" platform=''>OK</string>
+    <string name="browser_ok" platform='msm8226'>OK</string>
+    <string name="music_recordings" platform=''>My recordings</string>
+    <string name="music_recordings" platform='msm8226'>My recordings</string>
+    <string name="music_your_recordings" platform=''>Your recordings</string>
+    <string name="music_your_recordings" platform='msm8226'>Your recordings</string>
+    <string name="phone_network_not_available">Mobile network not available</string>
+    <string name="email_status_loading">Loading</string>
+    <string name="email_outbox">Outbox</string>
+    <string name="email_sentbox">Sent</string>
+    <string name="email_add_attachment">Attach file</string>
+    <string name="email_no_messages">No messages</string>
+    <string name="email_file_explorer">File Explorer</string>
+    <string name="email_share">Share</string>
+    <string name="email_app">Email</string>
+    <string name="email_just_once">Just once</string>
+    <string name="email_drafts">Drafts</string>
+    <string name="email_discard">Discard</string>
+    <string name="email_save_draft">Save draft</string>
+</resources>

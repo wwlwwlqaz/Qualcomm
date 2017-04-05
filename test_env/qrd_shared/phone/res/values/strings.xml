@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="card_title_dialing">Dialing</string>
+    <string name="dialog_cancel_button">Cancel</string>
+    <string name="network_not_available">Mobile network not available</string>
+    <string name="ok">Ok</string>
+    <string name="incoming">INCOMING</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="can_not_connection">您没有网络连接</string>
+    <string name="account_exist">此账户已存在</string>
+    <string name="app_gmail">Google</string>
+    <string name="clause">Google Play</string>
+    <string name="can_not_login">无法登录</string>
+    <string name="waiting_for_sync">正在等待同步</string>
+    <string name="inbox">收件箱</string>
+    <string name="sending">正在发送邮件</string>
+    <string name="reply">回复</string>
+</resources>

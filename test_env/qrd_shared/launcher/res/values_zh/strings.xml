@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apps">应用</string>
+    <string name="mms">短信</string>
+    <string name="phone">拨号</string>
+    <string name="people">联系人</string>
+    <string name="widgets">窗口小部件</string>
+    <string name="settings">设置</string>
+    <string name="email">电子邮件</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="manage_apps">管理应用</string>
+    <string name="system_settings">系统设置</string>
+    <string name="browser">浏览器</string>
+    <string name="camera">相机</string>
+    <string name="auto_test">QSST</string>
+    <string name="play_store">Play 商店</string>
+    <string name="doubanfm">豆瓣FM</string>
+    <string name="gmail">Gmail</string>
+    <string name="baidu_map">百度地图</string>
+    <string name="weibo">微博</string>
+    <string name="renren">人人</string>
+    <string name="clock">时钟</string>
+    <string name="calendar">日历</string>
+    <string name="gallery">图库</string>
+    <string name="Unfortunately">很抱歉</string>
+    <string name="btn_ok">确定</string>
+    <string name="no_response">无响应</string>
+    <string name="choose_wallpaper">选择壁纸来源</string>
+    <string name="power_off">关机</string>
+    <string name="no_service">No service</string>
+    <string name="no_sim">没有 SIM 卡</string>
+    <string name="sim_deactivated">SIM卡禁用</string>
+    <string name="youku">优酷</string>
+    <string name="gallery">图库</string>
+    <string name="file_explorer">文件管理</string>
+    <string name="music_player">音乐</string>
+    <string name="record">录音机</string>
+    <string name="mms_8930">信息</string>
+</resources>

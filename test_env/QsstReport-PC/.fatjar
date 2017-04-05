@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon May 13 15:26:34 CST 2013
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=QsstReport-PC.jar
+manifest.mergeall=true
+manifest.mainclass=com.android.qsst.report.QsstReport
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

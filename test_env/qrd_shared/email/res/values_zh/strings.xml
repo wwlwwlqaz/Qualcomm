@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_empty_list_wifi_off">要查看可用网络</string>
+    <string name="radioInfo_data_connected">已连接</string>
+    <string name="add_account_label">添加帐户</string>
+    <string name="app_email">电子邮件</string>
+    <string name="account_duplicate_dlg_title">帐户重复</string>
+    <string name="account_setup_check_settings_check_incoming_msg">正在检查接收服务器设置</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">正在检查外发服务器设置</string>
+    <string name="settings_action">设置</string>
+    <string name="account_settings_signature_label">签名</string>
+    <string name="okay_action">确定</string>
+    <string name="account_settings_edit_quick_responses_label">快速回复</string>
+    <string name="message_view_attachment_save_action">保存</string>
+    <string name="account_settings_mail_check_frequency_label">收件箱检查频率</string>
+    <string name="status_loading_messages">正在载入邮件</string>
+    <string name="status_loading">正在载入...</string>
+    <string name="hydra">Hydra</string>
+    <string name="radioInfo_data_forget">取消保存</string>
+    <string name="connect">连接</string>
+    <string name="could_not_open_connection">无法连接到服务器</string>
+    <string name="status">状态信息</string>
+    <string name="password">密码</string>
+    <string name="smtp">SMTP</string>
+    <string name="ssl_tls">SSL/TLS</string>
+</resources>

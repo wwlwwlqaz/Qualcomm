@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flash_mode">闪光模式</string>
+    <string name="5m_pixels">5 百万像素</string>
+    <string name="3m_pixels">3 百万像素</string>
+    <string name="action_using">选择要使用的应用</string>
+    <string name="decrease_picture_size">减少照片大小</string>
+    <string name="increase_picture_size">增加照片大小</string>
+    <string name="decrease_video_size">减少视频编码</string>
+    <string name="increase_video_size">增加视频编码</string>
+    <string name="no_thanks">不用了</string>
+    <string name="yes">是</string>
+    <string name="remember_photo_locations">是否记住照片拍摄地点</string>
+</resources>

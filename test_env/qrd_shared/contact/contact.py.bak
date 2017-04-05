@@ -1,0 +1,583 @@
+'''
+    add contact record and call it, share for others api:
+
+    The added number and name should be config at setting module.
+
+    @author: U{shijunz<shijunz@qti.qualcomm.com>}
+    @version: zhiyangz
+    @requires:python 2.7+
+    @license:
+
+    @note:
+    @attention:
+        only current actvity is contact.
+    @bug:
+    @warning:
+'''
+'''
+    for example:
+    def _demo_test_contact_api_()
+    if( get_activity_name() != 'com.android.contacts'):
+        start_activity('com.android.contacts','.activities.DialtactsActivity')
+    if( read_config_setting) :
+        add_contact_from_setting_config()
+    else:
+        add_contact_to_sim_card(_demo_name,_demo_number)
+
+'''
+from case_utility import *
+from qrd_shared.Base import Base
+from qrd_shared.case import *
+import settings.common as SC
+
+
+class Contact(Base):
+    
+    
+    def __init__(self):
+        """
+        This function init share contact api class.
+        @return: none
+        """
+
+        self.mode_name = "contact"
+        self.tag = 'qrd_share_contact'
+        Base.__init__(self, self.mode_name)
+        self.debug_print('contact init:%f' % (time.time()))
+
+    def add_contact_to_sim_card(self, name, number):
+        """
+        This function share api for others add contact to simcard.
+        @type  name: string
+        @param name: name
+        @type  number: number
+        @param number: phone number
+
+        @return: none
+        """
+        click_imageview_by_id('menu_add_contact')
+        click_textview_by_id('account_type')
+        click_textview_by_text('SIM1')
+
+        ime1 = IME()
+        ime1.IME_input_english(1, name)
+        
+        # entertext_edittext_by_index(0, number)
+        ime1.IME_input_number(1, number, 'n')
+              
+        # click btn done
+        click_imageview_by_id('icon')
+        goback()
+        sleep(2)
+        if search_text(name):
+            log_test_framework("find after add into sim1.")
+            # add__contact_result = True
+            return True
+        else:
+            log_test_framework("Add contact into sim1 failed. Cannot find")
+            # add__contact_result = False
+            return False
+        
+    def add_contact_to_phone(self, name, number):
+        """
+        This function share api for others add contact to simcard.
+        @type  name: string
+        @param name: name
+        @type  number: number
+        @param number: phone number
+
+        @return: none
+        """
+        scroll_to_top()
+        click_imageview_by_desc('add new contact')
+        sleep(1)
+        if search_text("You can synchronize your new contact"):
+            log_test_framework("ui_contact_case1 :", "it indicate you are first time to use contact application")
+            click_textview_by_text('PHONE')
+        elif search_text("You can synchronize your new contact"):
+            log_test_framework("ui_contact_case1 :", "Have not Detect Sim Card configure in contacts app")
+            take_screenshot()
+        else:
+            log_test_framework("ui_contact_case1 :", "you added contacts once")
+            
+        click_textview_by_id('account_type')
+        sleep(1)
+        click_textview_by_text('PHONE')
+        
+        entertext_edittext_by_index(0, name)
+        entertext_edittext_by_index(2, number)
+
+        # click btn done
+        click_imageview_by_desc('Done')
+        goback()
+        sleep(1)
+        if search_text(name):
+            log_test_framework("add_contact_to_phone: ", "Add contact success. Find in the phone")
+            return True
+        else:
+            log_test_framework("add_contact_to_phone: ", "Add contact failed. Cannot find")
+            return False
+        
+
+    '''
+    def click_next_key(self):
+        PRIVATE_NEXT = ['next']
+        IME().IME_input(1, PRIVATE_NEXT)
+        '''
+    
+    def add_contact_to_sim(self, name, number):
+        """
+        This function share api for others add contact to simcard.
+        @type  name: string
+        @param name: name
+        @type  number: number
+        @param number: phone number
+
+        @return: none
+        """
+        scroll_to_top()
+        click_imageview_by_desc('add new contact')
+        sleep(1)
+        if search_text("You can synchronize your new contact"):
+            log_test_framework("ui_contact_case1 :", "it indicate you are first time to use contact application")
+            click_textview_by_text('SIM')
+        elif search_text("You can synchronize your new contact"):
+            log_test_framework("ui_contact_case1 :", "Have not Detect Sim Card configure in contacts app")
+            take_screenshot()
+        else:
+            log_test_framework("ui_contact_case1 :", "you added contacts once")
+        
+        click_textview_by_id('account_type')
+        sleep(1)
+        click_textview_by_text('SIM1')    
+       
+
+        # entertext_edittext_by_index(0, name)
+        # entertext_edittext_by_index(1, number)
+        
+        entertext_edittext_by_index(0, name)
+        entertext_edittext_by_index(1, number)
+        
+
+        # click btn done
+        click_imageview_by_desc('Done')
+        goback()
+        sleep(1)
+        if search_text(name):
+            log_test_framework("add_contact_to_sim : ", "Add success. Find in the phone")
+            return True
+        else:
+            log_test_framework("add_contact_to_sim: ", "Add failed. Cannot find")
+            return False
+    
+               
+    
+    def add_contact_from_dial(self, number, name):
+        """
+        This function share api for others add contact to simcard.
+        @type  name: string
+        @param name: name
+        @type  number: number
+        @param number: phone number
+
+        @return: none
+        """
+        if not (name):
+            log_test_framework("add_contact_from_dial : ", "Cannot find in contacts. Add new from dialer panel")
+            '''#click_textview_by_text('Add to contacts')
+            #click_textview_by_id('cliv_name_textview')
+            click_textview_by_id('overflow_menu')
+            click_textview_by_text('CREATE NEW CONTACT')
+            
+            ime1 = IME()
+            ime1.IME_input_english(1, name)
+            # click btn done
+            click_imageview_by_id('icon')'''
+                      
+            
+            start_activity("com.android.contacts", "com.android.contacts.activities.PeopleActivity")
+            sleep(2)
+            waitActivity = lambda:search_text(name)
+            if wait_for_fun(waitActivity, True, 10):
+                log_test_framework("add_contact_from_dial : ", "Find contact added from dialer")
+                return True
+            else : 
+                log_test_framework("add_contact_from_dial : ", "Cannot find contact. Add contact from dialer failed")
+                return False
+        else:
+            log_test_framework("add_contact_from_dial : ", "Already exist in contact")
+            '''click_textview_by_id('overflow_menu')
+            click_textview_by_text('Add to contacts')
+            click_textview_by_text('CREATE NEW CONTACT')
+            ime1 = IME()
+            ime1.IME_input_english(1, name, 'p')
+            # click btn done
+            click_imageview_by_id('icon')'''
+            click_imageview_by_desc('More options', isScrollable=0)
+            click_textview_by_text('Add to contacts', isScrollable=0)
+            click_textview_by_text('Create new contact', isScrollable=0)
+            entertext_edittext_by_index(0, name)
+            click_imageview_by_desc('Done', isScrollable=0)
+            
+            start_activity("com.android.contacts", "com.android.contacts.activities.PeopleActivity")
+            sleep(2)
+            click_textview_by_text('All contacts', isScrollable=0)
+            waitActivity = lambda:search_text(name)
+            if wait_for_fun(waitActivity, True, 10):
+                log_test_framework("add_contact_from_dial : ", "Find contact added from dialer")
+                return True
+            else : 
+                log_test_framework("add_contact_from_dial : ", "Cannot find contact. Add contact from dialer failed")
+                return False
+    
+    
+    def dial_call(self, number, name):
+        """
+        """
+        click_imageview_by_id("dialButton")
+        sleep(5)
+        if search_text('Mobile network not available'):
+            return False
+        # whether get throught.
+        phoneOn = False
+        t = 0
+        while search_view_by_id("endButton") and t < 10:
+            if search_text("0:", searchFlag=TEXT_CONTAINS):
+                phoneOn = True
+                # click_button_by_id("audioButton")
+                # sleep(3)
+                break
+            sleep(1)
+            t = t + 1
+        if phoneOn == False:
+            return False
+        else:
+            return True
+    
+        
+    
+        
+    def edit_contact_phone(self, name, emailaddr_sequence, emailaddr):
+        """
+        This function share api for edit contact
+        """
+        click_textview_by_text(name)
+        # send_key(KEY_MENU)
+        editstr = 'Edit'
+        
+        # if search_text(editstr):
+        if is_view_enabled_by_id(VIEW_IMAGE_VIEW, 'menu_edit', isScrollable=0):
+            click_textview_by_id('menu_edit')
+            if search_text('EMAIL'):
+                log_test_framework("edit_contact_phone : ", "Directly edit EMAIL String")
+                # ime1 = IME()
+                # click_textview_by_index(5)
+                # clear_edittext_on_focused()
+                # click_textview_by_index(5)
+                # ime1.IME_input(1, emailaddr_sequence, 'p')
+                entertext_edittext_by_index(5, emailaddr_sequence)
+                # click btn done
+                click_imageview_by_id('save_menu_item')
+            else :
+                if search_text('Add another field'):
+                    log_test_framework("edit_contact_phone : ", "Add email field via press button to add")
+                    click_button_by_text('Add another field')
+                    click_textview_by_text('Email')
+                    ime1 = IME()
+                    ime1.IME_input(1, emailaddr_sequence, 'p')
+                    # entertext_edittext_by_index(1, emailaddr_sequence)
+                    # click btn done
+                    click_imageview_by_id('save_menu_item')
+        sleep(2)
+        if search_text(name) & search_text(emailaddr):
+            log_test_framework("edit_contact_phone : ", "Email field added succeed")
+            return True
+        else:
+            log_test_framework("edit_contact_phone : ", 'Email field added failed')
+            return False
+        
+           
+    
+    def share_contact_mms(self, name):
+        """
+        This function share api for edit contact
+        """
+        share_flag = False
+        click_textview_by_text(name)
+        send_key(KEY_MENU)
+        str = 'Share'
+        if search_text(str):
+            click_textview_by_text(str)
+            sleep(1)
+            if  search_text('Messaging'):
+                click_textview_by_text('Messaging')
+                waitActivity = lambda:get_activity_name().startswith("com.android.mms.ui.ShareVCardActivity")
+                # if (wait_for_fun(waitActivity, True, 6)) & search_text('New message',searchFlag=TEXT_MATCHES):
+                if search_text('New message', searchFlag=TEXT_MATCHES):
+                    ime1 = IME()
+                    # ime1.IME_input_number(1, '10086', 'c')
+                    entertext_edittext_by_index(0, '10086')
+                    sleep(1)
+                    click_textview_by_text('Type message')
+                    # ime1.IME_input_english(1, 'share contact vcard via mms', 'c')
+                    entertext_edittext_by_index(1, 'share contact vcard via mms')
+                    sleep(1)
+                    if search_view_by_id('send_button_mms'):
+                        print "share_contact_mms: find send_button_mms"
+                    else:
+                        print "share_contact_mms: cannot find send_button_mms"
+                    click_textview_by_id('send_button_mms')
+                    start_time = int(time.time())
+                    while int(time.time()) - start_time < 30:
+                        if search_text('Sent') | search_text('SENDING') :
+                            log_test_framework("share_contact_mms : ", 'VCard have sharing/shared out via MMS')
+                            share_flag = True
+                            break
+                        sleep(0.5)
+                    
+            else:
+                log_test_framework("share_contact_mms : 1", 'Share option have not include message choice')
+                
+        else :
+            log_test_framework("share_contact_mms : 2", 'Contact father view menu have not include share choice')
+                
+        return share_flag
+    
+    def export_import_contact(self, type, name):
+        """
+        This function share api for export/import contact
+        """
+        result_flag = False
+        send_key(KEY_MENU)
+        if type == 'export_to_sim':
+            str = 'Import/export'
+            substr = 'Export to SIM card'
+            if search_text(str):
+                click_textview_by_text(str)
+                click_textview_by_text(substr)
+                sleep(1)
+                send_key(KEY_MENU)
+                click_textview_by_text('All')
+                click_textview_by_desc('Done')
+            else:
+               log_test_framework("export_import_contact :", "cannot find Import/export field")
+               return False    
+            sleep(1)
+            send_key(KEY_MENU)
+            click_textview_by_text('Contacts to display')
+            if search_text('SIM1'):
+                click_textview_by_text('SIM1')
+            if search_text(name):
+                log_test_framework("export_import_contact :", "phone contact have been export into sim1")
+                result_flag = True
+            else:
+                log_test_framework("export_import_contact :", "phone contact have not  been export into sim1, Failed")
+                result_flag = False
+        
+        elif type == 'import_from_sim':
+            log_test_framework("export_import_contact :", 'import contact from sim, TODO update')
+        
+        elif type == 'import_from_storage':
+            log_test_framework("export_import_contact :", 'import contact from storage, TODO update')
+        
+        elif type == 'export_to_storage':
+            str = 'Import/export'
+            substr = 'Export to storage'
+            if search_text(str):
+                click_textview_by_text(str)
+                click_textview_by_text(substr)
+                sleep(1)
+                send_key(KEY_MENU)
+                click_textview_by_text('All')
+                click_textview_by_desc('Done')
+                if search_text('Select Path') & search_text('Phone storage'):
+                    click_textview_by_text('Phone storage')
+                    click_textview_by_text('OK')
+                    if search_text('Select Path', searchFlag=TEXT_CONTAINS) :
+                        click_textview_by_text('OK')
+                    click_textview_by_text('OK')
+            else:
+               log_test_framework("export_import_contact :", "cannot find Import/export field")
+               return False      
+            
+            # drag down screen
+            drag_by_param(50, 0, 50, 100, 10)
+            func = lambda:search_text("Finished exporting", isScrollable=0, searchFlag=TEXT_CONTAINS)
+            if wait_for_fun(func, True, 100):
+                log_test_framework("export_import_contact -->", "export contact to storage succeed.")
+                goback()
+                result_flag = True
+            else:
+                log_test_framework("export_import_contact -->", " export contact to storage failed")
+                goback()
+                result_flag = False
+        else:
+            log_test_framework("export_import_contact -->", 'this export/import command is invalid')
+        
+        send_key(KEY_MENU)
+        click_textview_by_text('Contacts to display')
+        click_textview_by_text('All contacts')
+        return result_flag
+    
+
+    def call_after_add_one_contact(self):
+        """
+        This function try call after add one.
+        @return: none
+        """
+
+        # log_test_case(self.name, 'call_from_contact')
+        click_textview_by_id('primary_action_view')
+        return
+
+    def add_contact_from_setting_config(self):
+        """
+        This function try add one from setting config xml.
+        the setting module can create common.py from config.xml
+        and then using the common.py
+        @return: none
+        """
+
+        name = SC.PRIVATE_CONTACT_NAME
+        number = SC.PRIVATE_CONTACT_NUMBER
+        self.add_contact_to_sim_card(name, number)
+        return
+    
+    def add_contact_into_phone(self, name, number):
+        """
+        This function try add one from setting config xml.
+        the setting module can create common.py from config.xml
+        and then using the common.py
+        @return: none
+        """
+        return self.add_contact_to_phone(name, number)
+    
+    def add_contact_into_sim(self, name, number):
+        """
+        This function try add one from setting config xml.
+        the setting module can create common.py from config.xml
+        and then using the common.py
+        @return: none
+        """
+        return self.add_contact_to_sim(name, number)
+    '''
+    def edit_contact_phone(self,name,emailaddr):
+        """
+        This function try add one from setting config xml.
+        the setting module can create common.py from config.xml
+        and then using the common.py
+        @return: none
+        """
+        return self.edit_contact_phone(name,emailaddr)
+    '''
+    
+    def del_one_contact(self, contact_name):
+        """
+        This function del one contact record
+        @return:  none
+        """
+        if search_text(contact_name):
+            click_textview_by_text(contact_name)
+            send_key(KEY_MENU)
+            click_textview_by_text("Delete")
+            click_button_by_text("OK")
+            return True
+        else:
+            return False
+        
+    def del_all_contact(self, phonecontact, simcontact):
+        """
+        This function del all contact records
+        @return:  none
+        """
+        send_key(KEY_MENU)
+        click_textview_by_text('Delete')
+        send_key(KEY_MENU)
+        delstr = 'All'
+        if search_text(delstr):
+            click_textview_by_text(delstr)
+            click_textview_by_desc('done')
+            sleep(2)
+            # if wait_for_fun(lambda:search_text('will be deleted'), True, 10):
+            if search_text('will be deleted', searchFlag=TEXT_CONTAINS):
+                # click_textview_by_text('OK')
+                click_button_by_text('OK')
+                return True
+            else:
+                return False
+        
+    # added by zhiyangz  
+    def clear_contact(self):
+        """
+        This function del all contact records
+        @return:  none
+        """
+        
+        if search_text('No contacts'):
+            log_test_framework("clear_contact : ", "Empty contact")
+            return True
+               
+        send_key(KEY_MENU)
+        delstr = 'Delete'
+        if search_text(delstr):
+            click_textview_by_text(delstr)
+            click_checkbox_by_id('select_all_check')
+            click_button_by_text('OK')
+            click_button_by_text('OK')
+            if wait_for_fun(lambda:search_text('Set up my profile'), True, 20):
+                    return True
+            else:
+                return False
+        else:
+            return False
+      
+    def call_contact(self, name):
+        """
+        This function share api for make call from contact
+        """
+        click_textview_by_text(name)
+        log_test_framework("call_contact : ", "call to " + name)
+        click_textview_by_id('call_button_sub1')
+        
+        sleep(5)
+        if search_view_by_id("endButton"):
+            click_button_by_id("endButton")
+            return True
+        else:
+            return False
+        
+    def add_contact_from_sms(self, name):
+        """
+        This function share api for others add contact from sms.
+        @type  name: string
+        @param name: name
+      
+        @return: none
+        """
+        add__contact_result = False
+        
+        click_textview_by_id('create_new_contact')
+        click_textview_by_id('account_type')
+        click_textview_by_text('PHONE')
+        
+        ime1 = IME()
+        ime1.IME_input_english(1, name)
+        ime1.IME_input_english(1, name)
+        
+        # click btn done
+        click_imageview_by_id('icon')
+        sleep(2)
+        if search_text(name):
+            log_test_framework("add_contact_from_sms: ", "Add contact success. Find in the phone")
+            # add__contact_result = True
+            return True
+        else:
+            log_test_framework("add_contact_from_sms: ", "Add contact failed. Cannot find")
+            # add__contact_result = False
+            return False
+      
+        
+    
+    
+    
+    

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test_suit app_name="" description="before run this suit, u need to check the value of PUBLIC_SLOT1_PHONE_NUMBER1 in settings/config.xml whether it is equal to SIM1 in mobile phone." enable="0" entry="test_suit_main" name="test_suit_ui_message" runner="accessibility">
+</test_suit>

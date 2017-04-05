@@ -1,0 +1,474 @@
+2017-03-21 15:17:02		framework API_INFO : API: is_external_storage_enable Param: no params
+
+2017-03-21 15:17:02		framework API_INFO : API: send_value_to_qsst Param[1]:name=CYCLE_TIME Param[2]:value=.
+
+2017-03-21 15:17:02		framework API_INFO : API: start_new_track Param[1]:name=2017-03-21-15_16_45 Param[2]:description=recording 2017-03-21-15_16_45
+
+2017-03-21 15:17:02		framework test_main : notification:start new track failed!!
+
+2017-03-21 15:17:02		framework TestLoader : suit_name:test_suit_settings
+
+2017-03-21 15:17:02		framework TestLoader : check case:test_suit_settings_case1
+
+2017-03-21 15:17:02		framework TestLoader : add case:test_suit_settings_case1
+
+2017-03-21 15:17:03		framework test_suit_settings_case1 : case added
+
+2017-03-21 15:17:03		framework API_INFO : API: send_value_to_qsst Param[1]:name=SUIT_NAME Param[2]:value=test_suit_settings
+
+2017-03-21 15:17:03		framework test_suit_settings : suit init...
+
+2017-03-21 15:17:03		framework API_INFO : API: update_notificationbar Param[1]:text=presettings is running...
+
+2017-03-21 15:17:03		framework logging_wrapper : suspend_flag = false, ---2  getprop
+
+2017-03-21 15:17:03		framework logging_wrapper : suspend_flag = false, ---2  getprop
+
+2017-03-21 15:17:03		framework test_suit_settings_case1 : case init...
+
+2017-03-21 15:17:03		framework API_INFO : API: send_value_to_qsst Param[1]:name=CASE_NAME Param[2]:value=test_suit_settings_case1
+
+2017-03-21 15:17:03		framework API_INFO : API: get_system_language Param: no params
+
+2017-03-21 15:17:03		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+
+2017-03-21 15:17:05		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+
+2017-03-21 15:17:07		framework API_INFO : API: get_activity_name Param: no params
+
+2017-03-21 15:17:07		framework case_utility : hard code get activity name
+
+2017-03-21 15:17:08		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:17:09		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+
+2017-03-21 15:17:09		framework API_INFO : API: send_key Param[1]:key=26 Param[2]:keyType=0
+
+2017-03-21 15:17:09		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:17:10		framework API_INFO : API: drag_by_param Param[1]:startX=50 Param[2]:startY=90 Param[3]:endX=50 Param[4]:endY=0 Param[5]:stepCount=10
+
+2017-03-21 15:17:10		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:17:12		framework API_INFO : API: search_text Param[1]:text=Close Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+
+2017-03-21 15:17:17		framework API_INFO : API: search_text Param[1]:text=OK Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2
+
+2017-03-21 15:17:21		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+
+2017-03-21 15:17:21		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:17:23		framework API_INFO : API: start_activity Param[1]:package_name=com.android.settings Param[2]:activity_name=.Settings
+
+2017-03-21 15:17:26		framework API_INFO : API: scroll_up Param: no params
+
+2017-03-21 15:17:26		framework API_INFO : API: get_system_language Param: no params
+
+2017-03-21 15:17:26		framework API_INFO : API: click_textview_by_text Param[1]:text=Security Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:17:42		framework API_INFO : API: click_textview_by_text Param[1]:text=Screen lock Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:17:43		framework API_INFO : API: click_textview_by_text Param[1]:text=None Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:17:45		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+
+2017-03-21 15:17:46		framework API_INFO : API: scroll_up Param: no params
+
+2017-03-21 15:17:47		framework API_INFO : API: click_textview_by_text Param[1]:text=Display Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:18:05		framework API_INFO : API: click_textview_by_text Param[1]:text=Sleep Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:18:07		framework API_INFO : API: click_textview_by_text Param[1]:text=30 minutes Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:18:08		framework API_INFO : API: click_imageview_by_index Param[1]:index=0
+
+2017-03-21 15:18:08		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+
+2017-03-21 15:18:09		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000038EFBA8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+
+2017-03-21 15:18:09		framework API_INFO : API: search_text Param[1]:text=Data usage Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=1
+
+2017-03-21 15:18:11		framework case_utility : <function <lambda> at 0x00000000038EFBA8> expected True
+
+2017-03-21 15:18:11		framework API_INFO : API: click_textview_by_text Param[1]:text=Data usage Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=2 Param[5]:waitForView=0 Param[6]:clickType=0
+
+2017-03-21 15:18:12		framework API_INFO : API: wait_for_fun Param[1]:fun=<function <lambda> at 0x00000000038EFBA8> Param[2]:flag=True Param[3]:timeout=5 Param[4]:sleeptime=1
+
+2017-03-21 15:18:12		framework API_INFO : API: search_text Param[1]:text=OFF Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:searchFlag=0
+
+2017-03-21 15:18:12		framework case_utility : <function <lambda> at 0x00000000038EFBA8> expected True
+
+2017-03-21 15:18:12		framework API_INFO : API: click_button_by_id Param[1]:_id=switch_widget Param[2]:isVerticalList=1 Param[3]:isScrollable=1 Param[4]:waitForView=0 Param[5]:clickType=0
+
+2017-03-21 15:18:14		framework API_INFO : API: send_key Param[1]:key=4 Param[2]:keyType=0
+
+2017-03-21 15:18:14		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+
+2017-03-21 15:18:16		framework API_INFO : API: search_text Param[1]:text=Unfortunately Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=2
+
+2017-03-21 15:18:18		framework API_INFO : API: search_text Param[1]:text=isn't responding Param[2]:isVerticalList=0 Param[3]:isScrollable=0 Param[4]:searchFlag=1
+
+2017-03-21 15:18:20		framework API_INFO : API: get_activity_name Param: no params
+
+2017-03-21 15:18:20		framework case_utility : hard code get activity name
+
+2017-03-21 15:18:20		framework API_INFO : API: sleep Param[1]:_time=1
+
+2017-03-21 15:18:21		framework API_INFO : API: send_key Param[1]:key=3 Param[2]:keyType=0
+
+2017-03-21 15:18:21		framework test_suit_settings_case1 : case end
+
+2017-03-21 15:18:21		framework test_suit_settings : suit end
+
+2017-03-21 15:18:21		framework test_main : stkDialog condition watcher
+
+2017-03-21 15:18:21		framework API_INFO : API: register_condition_action_watcher Param[1]:packageName_condition=com.android.systemui Param[2]:className_condition=4 Param[3]:idType_condition=0 Param[4]:id_condition=level_percent Param[5]:action=2 Param[6]:className_action=4 Param[7]:idType_action=0 Param[8]:id_action=level_percent
+
+2017-03-21 15:18:21		framework case_utility :  WATCHER condition REGISTER className 4
+
+2017-03-21 15:18:21		framework test_main : low battery watcher
+
+2017-03-21 15:18:21		framework API_INFO : API: send_value_to_qsst Param[1]:name=CYCLE_TIME Param[2]:value=.
+
+2017-03-21 15:18:21		framework test_main : Current report 1/1
+
+2017-03-21 15:18:21		framework BgTestLoader : suit_name:test_suit_background
+
+2017-03-21 15:18:21		framework BgTestLoader : base_path:./background_case_pool/
+
+2017-03-21 15:18:21		framework TestLoader : loadTestSuit suit_name:test_suit_airplanemode
+
+2017-03-21 15:18:21		framework TestLoader : loadTestSuit suit_name:test_suit_baidumap
+
+2017-03-21 15:18:21		framework TestLoader : loadTestSuit suit_name:test_suit_browser
+
+2017-03-21 15:18:21		framework TestLoader : loadTestSuit suit_name:test_suit_camera
+
+2017-03-21 15:18:21		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_browser
+
+2017-03-21 15:18:21		framework TestLoader : suit_name:test_suit_cmcc_devci_browser
+
+2017-03-21 15:18:21		framework TestLoader : check case:test_suit_cmcc_devci_browser_case02
+
+2017-03-21 15:18:21		framework TestLoader : add case:test_suit_cmcc_devci_browser_case02
+
+2017-03-21 15:18:21		framework TestLoader : check case:test_suit_cmcc_devci_browser_case2
+
+2017-03-21 15:18:21		framework TestLoader : add case:test_suit_cmcc_devci_browser_case2
+
+2017-03-21 15:18:21		framework test_suit_cmcc_devci_browser_case2 : case added
+
+2017-03-21 15:18:21		framework TestLoader : check case:test_suit_cmcc_devci_browser_case3
+
+2017-03-21 15:18:21		framework TestLoader : add case:test_suit_cmcc_devci_browser_case3
+
+2017-03-21 15:18:21		framework test_suit_cmcc_devci_browser_case3 : case added
+
+2017-03-21 15:18:21		framework test_suit_cmcc_devci_browser : suit added
+
+2017-03-21 15:18:21		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_bt
+
+2017-03-21 15:18:21		framework TestLoader : suit_name:test_suit_cmcc_devci_bt
+
+2017-03-21 15:18:21		framework TestLoader : check case:test_suit_cmcc_devci_bt_case1
+
+2017-03-21 15:18:21		framework TestLoader : add case:test_suit_cmcc_devci_bt_case1
+
+2017-03-21 15:18:21		framework test_suit_cmcc_devci_bt_case1 : case added
+
+2017-03-21 15:18:21		framework test_suit_cmcc_devci_bt : suit added
+
+2017-03-21 15:18:21		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_calculator
+
+2017-03-21 15:18:21		framework TestLoader : suit_name:test_suit_cmcc_devci_calculator
+
+2017-03-21 15:18:21		framework TestLoader : check case:test_suit_cmcc_devci_calculator_case1
+
+2017-03-21 15:18:21		framework TestLoader : add case:test_suit_cmcc_devci_calculator_case1
+
+2017-03-21 15:18:21		framework test_suit_cmcc_devci_calculator_case1 : case added
+
+2017-03-21 15:18:21		framework test_suit_cmcc_devci_calculator : suit added
+
+2017-03-21 15:18:21		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_calendar
+
+2017-03-21 15:18:21		framework TestLoader : suit_name:test_suit_cmcc_devci_calendar
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_calendar_case1
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_calendar_case1
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_calendar_case1 : case added
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_calendar : suit added
+
+2017-03-21 15:18:22		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_camera
+
+2017-03-21 15:18:22		framework TestLoader : suit_name:test_suit_cmcc_devci_camera
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_camera_case1
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_camera_case1
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera_case1 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_camera_case2
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_camera_case2
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera_case2 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_camera_case3
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_camera_case3
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera_case3 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_camera_case4
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_camera_case4
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera_case4 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_camera_case5
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_camera_case5
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera_case5 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_camera_case6
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_camera_case6
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera_case6 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_camera_case7
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_camera_case7
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera_case7 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_camera_case8
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_camera_case8
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera_case8 : case added
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_camera : suit added
+
+2017-03-21 15:18:22		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_clock
+
+2017-03-21 15:18:22		framework TestLoader : suit_name:test_suit_cmcc_devci_clock
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_clock_case1
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_clock_case1
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_clock_case1 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_clock_case2
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_clock_case2
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_clock_case2 : case added
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_clock : suit added
+
+2017-03-21 15:18:22		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_contact
+
+2017-03-21 15:18:22		framework TestLoader : suit_name:test_suit_cmcc_devci_contact
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case1
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case1
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case10
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case10
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case11
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case11
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case12
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case12
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case13
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case13
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case14
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case14
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case15
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case15
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case16
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case16
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case17
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case17
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case18
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case18
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case18 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case19
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case19
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case19 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case2
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case2
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case20
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case20
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case20 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case21
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case21
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case21 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case22
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case22
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case23
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case23
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case23 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case24
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case24
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case24 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case25
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case25
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case26
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case26
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case27
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case27
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case27 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case28
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case28
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case28 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case29
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case29
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case29 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case3
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case3
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case30
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case30
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact_case30 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case31
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case31
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case32
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case32
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case33
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case33
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case34
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case34
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case35
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case35
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case36
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case36
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case4
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case4
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case5
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case5
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case6
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case6
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case7
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case7
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case8
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case8
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_contact_case9
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_contact_case9
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_contact : suit added
+
+2017-03-21 15:18:22		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_downloads
+
+2017-03-21 15:18:22		framework TestLoader : suit_name:test_suit_cmcc_devci_downloads
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_downloads_case1
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_downloads_case1
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_downloads_case1 : case added
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_downloads : suit added
+
+2017-03-21 15:18:22		framework TestLoader : loadTestSuit suit_name:test_suit_cmcc_devci_email
+
+2017-03-21 15:18:22		framework TestLoader : suit_name:test_suit_cmcc_devci_email
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_email_case1
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_email_case1
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_email_case1 : case added
+
+2017-03-21 15:18:22		framework TestLoader : check case:test_suit_cmcc_devci_email_case2
+
+2017-03-21 15:18:22		framework TestLoader : add case:test_suit_cmcc_devci_email_case2
+
+2017-03-21 15:18:22		framework test_suit_cmcc_devci_email_case2 : case added
+

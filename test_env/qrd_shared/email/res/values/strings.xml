@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_empty_list_wifi_off">To see available networks</string>
+    <string name="radioInfo_data_connected">Connected</string>
+    <string name="add_account_label">Add account</string>
+    <string name="app_email">Email</string>
+    <string name="account_duplicate_dlg_title">Duplicate account</string>
+    <string name="account_setup_check_settings_check_incoming_msg">Checking incoming server settings</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Checking outgoing server settings</string>
+    <string name="settings_action">Settings</string>
+    <string name="account_settings_signature_label">Signature</string>
+    <string name="okay_action">OK</string>
+    <string name="account_settings_edit_quick_responses_label">Quick responses</string>
+    <string name="message_view_attachment_save_action">Save</string>
+    <string name="account_settings_mail_check_frequency_label">Inbox check frequency</string>
+    <string name="status_loading_messages">Loading message</string>
+    <string name="status_loading">Loading...</string>
+    <string name="hydra">Hydra</string>
+    <string name="radioInfo_data_forget">Forget</string>
+    <string name="connect">Connect</string>
+    <string name="could_not_open_connection">Couldn\'t open connection</string>
+    <string name="status">Status</string>
+    <string name="password">Password</string>
+    <string name="smtp">SMTP</string>
+    <string name="ssl_tls">SSL/TLS</string>
+</resources>

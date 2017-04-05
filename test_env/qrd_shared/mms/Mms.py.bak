@@ -1,0 +1,101 @@
+#coding=utf-8
+'''
+   provide some interface of mms application.
+
+   This class will provide operations api of mms application.
+
+   1.Developer can directly call those api to perform some operation.
+
+   2.Developer can add some new api.
+
+
+   @author: U{c_chuanc<c_chuanc@qti.qualcomm.com>}
+   @version: version 1.0.0
+   @requires: python 2.7+
+   @license:
+
+   @see: L{Base <Base>}
+   @note:
+   @attention:
+   @bug:
+   @warning:
+
+
+
+'''
+from case_utility import *
+from qrd_shared.Base import Base
+from qrd_shared.ime.IME import IME
+from logging_wrapper import log_test_framework
+class Mms(Base):
+    '''
+    Mms is a class for operating Mms application.
+
+    @see: L{Base <Base>}
+    '''
+    TAG = "Mms"
+    '''@var TAG: tag of Mms'''
+    def __init__(self):
+        '''
+        init function.
+        '''
+        self.mode_name = "mms"
+        self.ime = IME()
+        Base.__init__(self,self.mode_name)
+        self.debug_print( 'Mms init:%f' %(time.time()))
+
+    def click_home_icon(self):
+        '''
+        click home icon.
+
+        @return: true-if click success.false-if click failed.
+        '''
+        if wait_for_fun(lambda:search_view_by_id("home"), True, 10):
+            click_imageview_by_id("home")
+            return True
+        log_test_framework(self.TAG, "Can't search view 'home'.")
+        return False
+
+    def delete_all_threads(self):
+        '''
+        delete all threads.
+        '''
+        send_key(KEY_MENU)
+        delete_all_threads = self.get_value("delete_all_threads")
+        if search_text(delete_all_threads):
+            click_textview_by_text(delete_all_threads)
+            click_button_by_index(1)
+            if wait_for_fun(lambda:search_text(self.get_value("no_conversations")), True, 5):
+                log_test_framework(self.TAG, "Delete All Messages successfully")
+                take_screenshot()
+        else:
+            goback()
+
+    def send_sms(self, send_slot_number, recive_phone_number, content):
+        '''
+        use slot1 or slot2 to send a sms to a specific phone number,then check whether send success.
+
+        @type send_slot_number: number
+        @param send_slot_number: send slot,1-slot1,2-slot2, 3-default
+        @type recive_phone_number: number
+        @param recive_phone_number: the phone nunber that recive the message.
+        @type content: string
+        @param content: text message.
+        @return: true-if send success,false-if send failed.
+        '''
+        num = recive_phone_number
+        mms_text = content
+        click_imageview_by_id('action_compose_new')
+        click_textview_by_id("recipients_editor")
+        self.ime.IME_input_number(1, num, "c")
+        click_textview_by_text(self.get_value("type_message"))
+        self.ime.IME_input_english(1, mms_text)
+        click_imageview_by_id('send_button_sms')
+        if send_slot_number != 3:
+            click_button_by_index(send_slot_number - 1)
+        func = lambda:search_text(self.get_value("sent"), searchFlag=TEXT_CONTAINS)
+        if wait_for_fun(func, True, 30):
+            self.click_home_icon()
+            return True
+        self.click_home_icon()
+        return False

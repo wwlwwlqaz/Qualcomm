@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<test_case name="test_suit_settings_case1"
+entry="test_case_main"
+enable="1"
+dependency=""
+relative_suits=""
+>
+</test_case>

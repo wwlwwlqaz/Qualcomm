@@ -1,0 +1,5 @@
+SUIT:test_suit_settings
+STARTTIME:2017-03-21 15:17:03
+CASE:test_suit_settings:test_suit_settings_case1
+ENDTIME:2017-03-21 15:18:21
+RESULT:1:1:0:0

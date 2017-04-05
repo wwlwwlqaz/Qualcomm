@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 下面是test suit的名字必须和文件夹名吻合-->
+<!-- entry="test_suit_main"，必须是test_suit_main-->
+<!-- enable="0"，1表示跑这个suit，0表示不跑这个suit-->
+<!-- app_name=""，必须有，可以为空，填入的app_name可以在qrd_shared/launcher/res中选择如"gallery"，填入话他就会在case的开头自动打开那个apk-->
+<test_suit app_name="" enable="0" entry="test_suit_main" name="test_suit_sample">
+</test_suit>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi">Wi-Fi</string>
+    <string name="see_available_networks">查看可用网络</string>
+    <string name="hydra">Hydra</string>
+    <string name="connected">已连接</string>
+    <string name="forget">取消保存</string>
+    <string name="connect">连接</string>
+    <string name="location_access">位置信息访问权限</string>
+    <string name="dual_sim_settings">双卡设置</string>
+    <string name="count_down_time">倒计时时间</string>
+    <string name="voice">语音</string>
+    <string name="slot1">卡槽一</string>
+    <string name="slot2">卡槽二</string>
+    <string name="data_call">数据</string>
+    <string name="sms">短消息</string>
+    <string name="action_using">选择要使用的应用</string>
+    <string name="add_phone">电话</string>
+    <string name="contact_delete">删除</string>
+    <string name="add_im">即时消息</string>
+    <string name="contact">联系人</string>
+    <string name="menu_import_export">导入</string>
+    <string name="import_from_sdcard">从存储设备导入</string>
+    <string name="import_all_vcard_string">导入所有 vCard 文件</string>
+    <string name="cancel">取消</string>
+    <string name="accounts">您可以</string>
+    <string name="export_to_sim">导出到 SIM 卡</string>
+    <string name="import_from_sim">从 SIM 卡导入</string>
+</resources>

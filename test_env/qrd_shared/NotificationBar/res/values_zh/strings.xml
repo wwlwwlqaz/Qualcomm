@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MissedCall">未接来电</string>    
+    <string name="gmail">gmail</string>    
+    <string name="NewMessage">10011</string>
+    <string name="airplanemodeon">已开启飞行模式</string>
+    <string name="airplanemodeoff">已关闭飞行模式</string>
+    <string name="airplanemode">飞行模式</string>
+</resources>

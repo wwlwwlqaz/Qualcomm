@@ -1,0 +1,10 @@
+Reference Data
+#launch_time:camera_001:5000
+#fps:camera_001:30
+#launch_time:camera_003:956
+#fps:camera_003:40
+#launch_time:camera_002:800
+#fps:camera_002:20
+#fps:camera_004:200
+END
+

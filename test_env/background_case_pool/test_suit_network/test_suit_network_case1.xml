@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<test_case name="test_suit_network_case1"
+enable="1"
+description="ping the network about www.baidu.com"
+>
+</test_case>

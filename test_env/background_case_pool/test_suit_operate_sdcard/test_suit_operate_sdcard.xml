@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<test_suit name="test_suit_operate_sdcard"
+enable="0"
+description="About operate sdcard"
+>
+</test_suit>

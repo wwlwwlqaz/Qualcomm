@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_empty_list_wifi_off">要查看可用网络</string>
+    <string name="multi_sim_settings_title">双卡设置</string>
+    <string name="data_title">数据</string>
+    <string name="menu_preferences">设置</string>
+    <string name="pref_privacy_security_title">隐私</string>
+    <string name="pref_privacy_clear_cache">清除缓存</string>
+    <string name="dialog_ok_button">确定</string>
+    <string name="dialog_cancel_button">取消</string>
+    <string name="set_dds_success">成功设置默认数据通道</string>
+    <string name="Loading">正在载入</string>
+    <string name="Connection_problem">连接问题</string>
+    <string name="webpage_not_available">找不到网页</string>
+    <string name="google_account_auto_connection">自动登录 Google</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install">安装</string>
+    <string name="uninstall">卸载</string>
+    <string name="douban_fm">豆瓣FM</string>
+</resources>

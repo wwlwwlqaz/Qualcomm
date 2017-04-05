@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_and_ime">语言和输入法</string>
+    <string name="google_pinyin">谷歌拼音输入法</string>
+    <string name="google_pinyin" platform ="">谷歌拼音输入法</string>
+    <string name="google_pinyin" platform ="msm8226">谷歌拼音输入法</string>
+    <string name="google_pinyin" platform ="QRD-8625DSDS">谷歌拼音输入法</string>
+    <string name="google_pinyin_settings">谷歌拼音输入法设置</string>
+    <string name="google_pinyin_settings" platform ="">谷歌拼音输入法设置</string>
+    <string name="google_pinyin_settings" platform ="msm8226">谷歌拼音输入法设置</string>
+    <string name="default">默认</string>
+    <string name="auto_capitalization">联想输入</string>
+    <string name="auto_capitalization" platform ="">联想输入</string>
+    <string name="auto_capitalization" platform ="msm8226">联想输入</string>
+    <string name="Find_on_page">在网页上查找</string>
+    <string name="Quit">退出</string>
+</resources>

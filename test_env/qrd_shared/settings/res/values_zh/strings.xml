@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi">Wi‑Fi</string>
+    <string name="see_available_networks">要查看可用网络</string>
+    <string name="connected">已连接</string>
+    <string name="forget">取消保存</string>
+    <string name="connect">连接</string>
+    <string name="location_access">位置信息访问权限</string>
+    <string name="dual_sim_settings">双卡设置</string>
+    <string name="count_down_time">倒计时时间</string>
+    <string name="voice">语音</string>
+    <string name="slot1">卡槽一</string>
+    <string name="slot2">卡槽二</string>
+    <string name="data_call">数据</string>
+    <string name="sms">短消息</string>
+    <string name="cancel">取消</string>
+    <string name="security">安全</string>
+    <string name="screen_lock">屏幕锁定</string>
+    <string name="none">无</string>
+    <string name="display">显示</string>
+    <string name="sleep">休眠</string>
+    <string name="never">永不</string>
+    <string name="add_account">添加帐户</string>
+    <string name="keep_me_up">向我发送</string>
+    <string name="could_not_sign_in">无法登录</string>
+    <string name="entertainment">精彩娱乐内容</string>
+    <string name="signing_in">正在登录</string>
+    <string name="account_exsits">此帐户已存在</string>
+    <string name="always_ask">总是询问</string>
+    <string name="next">下一步</string>
+    <string name="set_dds_success">成功设置默认数据通道</string>
+    <string name="about_phone">关于手机</string>
+    <string name="system_update">系统升级</string>
+    <string name="local_updates">本地更新</string>
+</resources>

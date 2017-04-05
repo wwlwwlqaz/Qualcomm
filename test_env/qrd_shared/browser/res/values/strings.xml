@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_empty_list_wifi_off">To see available networks</string>
+    <string name="multi_sim_settings_title">Dual SIM settings</string>
+    <string name="data_title">Data Call</string>
+    <string name="menu_preferences">Settings</string>
+    <string name="pref_privacy_security_title">Privacy</string>
+    <string name="pref_privacy_clear_cache">Clear stored data</string>
+    <string name="pref_privacy_clear_cache_data">Clear selected items</string>
+    <string name="dialog_ok_button">OK</string>
+    <string name="dialog_cancel_button">Cancel</string>
+    <string name="set_dds_success">Set data subscription success</string>
+    <string name="Loading">Loading</string>
+    <string name="Connection_problem">Connection problem</string>
+    <string name="webpage_not_available">Webpage not available</string>
+    <string name="google_account_auto_connection">Automatic Google signin</string>
+    <string name="homepage">Homepage</string>
+    <string name="stop">Stop</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="close_other_tabs">Close other tabs</string>
+    <string name="exit">Exit</string>
+    <string name="quit">Quit</string>
+    <string name="file_exist">File already exists</string>
+</resources>

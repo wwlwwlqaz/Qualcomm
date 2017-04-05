@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flash_mode">Flash mode</string>
+    <string name="5m_pixels">5M pixels</string>
+    <string name="3m_pixels">3M pixels</string>
+    <string name="airplanemodeon">Airplane mode is ON</string>
+    <string name="airplanemodeoff">Airplane mode is OFF</string>
+    <string name="airplanemode">Airplane mode</string>
+</resources>

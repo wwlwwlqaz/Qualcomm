@@ -1,0 +1,77 @@
+2015-04-21 13:49:20.912::start to run command
+2015-04-21 13:49:20.922::setupDeviceForward: 40914274
+2015-04-21 13:49:20.922::setupDeviceForward: 1990to:1990
+2015-04-21 13:49:20.992::AgentConnection. start to connect to device, on port:1990
+2015-04-21 13:49:21.002::XAgent Command: UICommand.getViewPosition
+2015-04-21 13:49:21.002::arg0:text
+2015-04-21 13:49:21.002::arg1:equals
+2015-04-21 13:49:21.002::arg2:Digital clock
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at xautomation.device.xagent.AgentConnection.getResponse(AgentConnection.java:175)
+	at xautomation.device.xagent.AgentConnection.parseResponse(AgentConnection.java:132)
+	at xautomation.device.xagent.AgentConnection.executeCommand(AgentConnection.java:212)
+	at xautomation.device.xagent.XAgentClient.executeCommand(XAgentClient.java:109)
+	at com.android.xautomation.XAgentClientRunner.main(XAgentClientRunner.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+xautomation.device.xagent.ORBServerDiedException
+	at xautomation.device.xagent.AgentConnection.parseResponse(AgentConnection.java:136)
+	at xautomation.device.xagent.AgentConnection.executeCommand(AgentConnection.java:212)
+	at xautomation.device.xagent.XAgentClient.executeCommand(XAgentClient.java:109)
+	at com.android.xautomation.XAgentClientRunner.main(XAgentClientRunner.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+xautomation.device.xagent.ORBServerDiedException: agent server died
+	at xautomation.device.xagent.AgentConnection.executeCommand(AgentConnection.java:216)
+	at xautomation.device.xagent.XAgentClient.executeCommand(XAgentClient.java:109)
+	at com.android.xautomation.XAgentClientRunner.main(XAgentClientRunner.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+2015-04-21 13:49:21.012::XAutomationClient: orb lost connection, will restart adb server !!!!!!!!
+2015-04-21 13:49:21.012::DeviceMonitor, Connection attempts: 0
+2015-04-21 13:49:21.012::DeviceMonitor, Connecting to adb for Device List Monitoring...
+2015-04-21 13:49:21.012::try to run command: adb kill-server, timeOut=180000
+2015-04-21 13:49:21.112::process finished success
+2015-04-21 13:49:21.112::run command: get exitValue
+2015-04-21 13:49:21.112::run command: finished 
+2015-04-21 13:49:21.152::DeviceMonitor, sendDeviceListMonitoringRequest
+2015-04-21 13:49:21.152::DeviceMonitor, Sending Tracking request failed!
+2015-04-21 13:49:22.112::try to run command: adb start-server, timeOut=180000
+* daemon not running. starting it now on port 5037 *
+CreateProcess failure, error 2
+* failed to start daemon *
+2015-04-21 13:49:23.152::process finished success
+2015-04-21 13:49:23.152::run command: get exitValue
+2015-04-21 13:49:23.152::run command: finished 
+2015-04-21 13:49:31.153::DeviceMonitor, Connection attempts: 1
+2015-04-21 13:49:31.153::DeviceMonitor, Connecting to adb for Device List Monitoring...
+java.net.ConnectException: Connection refused: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at xautomation.platform.android.pc.AndroidDeviceMonitor.openAdbConnection(AndroidDeviceMonitor.java:89)
+	at xautomation.platform.android.pc.AndroidDeviceMonitor.deviceMonitorLoop(AndroidDeviceMonitor.java:243)
+	at xautomation.platform.android.pc.AndroidDeviceMonitor.access$0(AndroidDeviceMonitor.java:237)
+	at xautomation.platform.android.pc.AndroidDeviceMonitor$1.run(AndroidDeviceMonitor.java:376)
+2015-04-21 13:49:32.153::DeviceMonitor, sendDeviceListMonitoringRequest
+2015-04-21 13:49:37.153::command finished

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<test_case name="test_suit_operate_sdcard_case1"
+enable="1"
+description="new a txt on sdcard ,write it ,delete it"
+>
+</test_case>
